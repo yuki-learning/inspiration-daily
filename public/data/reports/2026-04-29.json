@@ -1,0 +1,135 @@
+{
+  "issue_no": 2,
+  "date": "2026-04-29",
+  "version_ruler": "v1.5",
+  "title": "微博音频灵感 Agent · v1.5 标尺第 2 期",
+  "page_title": "2026-04-29 灵感日报",
+  "window_start": null,
+  "window_end": "2026-04-29",
+  "meta": {
+    "search_routes": 16,
+    "data_source": "覆盖窗口：过去 ~3 天主线 + 关键补充 · 数据源：WebSearch（16 路并行）· 已屏蔽内部立项与上期忽略方向",
+    "phase": "calibration",
+    "blocked_directions": []
+  },
+  "meta_banner": null,
+  "takeaway": {
+    "label": "本期看点",
+    "body": "<strong>本期看点</strong> · 一个真新方向 + 三个跟进方向的关键新输入。<br/>\nParticle（前 Twitter 团队的 AI 新闻 App）用 vector embedding 把\"历史播客片段\"精准映射到\"当下新闻\"，恰好解决了上一期 ③（Timed Links）你顾虑的\"播客生成 vs 热搜实时\"的时序错位——这是上一期 ③ 的反向解法。Amazon 和 YouTube 各自验证了\"AI 音频问答\"和\"音频→视频\"两个形态在大厂的可行性，分别给跟进中的 ⑥⑧ 加权。"
+  },
+  "stats": [
+    {
+      "num": 8,
+      "label": "本期信号"
+    },
+    {
+      "num": 1,
+      "label": "真·新方向 ≥6 分"
+    },
+    {
+      "num": 3,
+      "label": "跟进方向新输入"
+    },
+    {
+      "num": 4,
+      "label": "持续观察"
+    }
+  ],
+  "feedback_prompts": [],
+  "sections": {
+    "A": {
+      "title": "现状概况",
+      "subtitle": "2026-04-27 → 04-29 关键信号",
+      "buckets": [
+        {
+          "title": "国外对标动态",
+          "signal_ids": [
+            "S-13",
+            "S-14",
+            "S-15",
+            "S-16"
+          ]
+        },
+        {
+          "title": "AI 技术 · 产品动态",
+          "signal_ids": [
+            "S-17",
+            "S-18"
+          ]
+        },
+        {
+          "title": "行业数据 · 风向",
+          "signal_ids": [
+            "S-19",
+            "S-20"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "title": "真·新方向",
+      "subtitle": "本期 1 条",
+      "new_direction_ids": [
+        "⑨"
+      ],
+      "empty_reason": null
+    },
+    "C": {
+      "title": "跟进方向的新输入",
+      "subtitle": "不是新方向，是给已跟进/讨论中方向加新材料",
+      "followups": [
+        {
+          "direction_id": "⑤",
+          "title": "⑤ 提示词式播客发现 · 进阶版可参考 Spotify Taste Profile",
+          "linked_note": "→ 关联信号 S-14（Spotify Q1 财报）",
+          "linked_signal_ids": [
+            "S-14"
+          ],
+          "input": "Spotify 的 Taste Profile 把 ⑤ 推进了一步：不只让用户用 prompt 描述想听什么，而是把 AI 对该用户的口味理解 <strong>可视化呈现</strong>，且让用户 <strong>反向编辑标签</strong> 来调整后续推荐。你做音频聚合页的 prompt 框时，可以一并考虑这个进阶层——但小心\"开盒感\"，可能要让用户主动打开\"我的画像\"而不是默认展示。Spotify 选择新西兰首发再扩，估计他们也在测隐私接受度。"
+        },
+        {
+          "direction_id": "⑥",
+          "title": "⑥ AI 嘉宾问答卡片 · Amazon 验证了\"被动播报 + 主动打断\"混合形态可行",
+          "linked_note": "→ 关联信号 S-15（Amazon Join the Chat）+ S-17（OpenAI Realtime mini）",
+          "linked_signal_ids": [
+            "S-15",
+            "S-17"
+          ],
+          "input": "Amazon 商品页的 \"Hear the highlights + Join the Chat\" 是一个有意思的同形态参考：用户先听 30 秒 AI 双主播被动播报，听到一半可以\"打断提问\"，AI 回答完无缝回到主播报。这个混合形态比\"纯推荐问题点击\"或\"纯实时对话\"都更轻量，可作为 ⑥ 在另一个 chat 讨论时的形态选项之一。技术侧 OpenAI Realtime mini 把成本进一步压低，对量产更友好。<br/>\n<span style=\"color:var(--muted);font-size:12px\">（这条由你已切到独立 chat 讨论，仅作信号同步，不在此处展开方案）</span>"
+        },
+        {
+          "direction_id": "⑧",
+          "title": "⑧ 音频高光 → 视频 · 行业数据强化优先级",
+          "linked_note": "→ 关联信号 S-16（YouTube 自动视频版）+ S-19（58% 短片段发现）",
+          "linked_signal_ids": [
+            "S-16",
+            "S-19"
+          ],
+          "input": "两条数据共同强化 ⑧ 的优先级：(1) 58% 新播客听众是通过短视频片段进入的——意味着这件事不是辅助功能，是新听众主入口；(2) YouTube 选择\"完整音频→自动视频版\"的激进路径解决静态图 90% 流失问题。微博的\"高光视频\"路径其实有差异化优势：完整视频版在视频号/B站不如长视频赚钱，但 30-60 秒高光更适合微博图文/短视频场域。建议在 ⑧ 立项前明确选\"高光剪辑\"路径而不是\"完整视频版\"，这是微博相对 YouTube 的形态优势。"
+        }
+      ]
+    },
+    "D": {
+      "title": "持续观察",
+      "subtitle": "不行动但建档",
+      "items": [
+        {
+          "text": "<strong>AI 可穿戴录音设备</strong> · Plaud 累计 150 万用户；Friend、Rewind Pendant 等同类崛起。供给侧未来可能产生大量\"个人音频\" UGC，与微博 UGC 平台属性有衔接，但跨度大、对硬件依赖高。",
+          "score": "5/22"
+        },
+        {
+          "text": "<strong>arxiv: PodAgent / X-Talk / MASS-RAG</strong> · 多代理 RAG 用于播客生成的论文集中出现，与 ⑥ AI 嘉宾问答卡片底层架构同构，可作为另一对话讨论的技术参考。",
+          "score": "论文阶段"
+        },
+        {
+          "text": "<strong>小红书\"AIO\" (AI Optimization)</strong> · 新概念，针对 AI 检索/对话的\"内容认知优化\"取代传统 SEO。短期对微博音频不直接，但中长期影响内容分发逻辑。",
+          "score": "4/22"
+        },
+        {
+          "text": "<strong>OpenAI 自研音频设备（Jony Ive 团队）</strong> · 2027 年传出，定位 audio-based。如果落地，可能催生\"专属音频 OS\"的新赛道，对手机端音频 App 是远期变量。",
+          "score": "2/22"
+        }
+      ]
+    }
+  }
+}

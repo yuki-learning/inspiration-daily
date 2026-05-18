@@ -1,0 +1,132 @@
+[
+  {
+    "id": "fb-1-1",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "①",
+    "action": "采纳",
+    "note": "已在做",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-1-2",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "②",
+    "action": "采纳",
+    "note": "已在做",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-1-3",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "③",
+    "action": "忽略",
+    "note": "时序错位（v1.5 维度⑧）",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-1-4",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "④",
+    "action": "忽略",
+    "note": "结构劣势 -2 分（v1.5 维度⑦）",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-1-5",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "⑤",
+    "action": "跟进",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-1-6",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "⑥",
+    "action": "跟进",
+    "note": "原方向 v1 8/10；反馈两个否决理由（作者授权 + 用户主动）。→ v1.5 形态降级",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-1-7a",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "⑦-a",
+    "action": "部分采纳",
+    "note": "摘要部分采纳，移交 AI 节点组",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-1-7b",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "⑦-b",
+    "action": "保留",
+    "note": "多语种同传 deferred，等英文存量过 5%",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-1-8",
+    "issue_no": 1,
+    "target_type": "direction",
+    "target_id": "⑧",
+    "action": "跟进",
+    "timestamp": "2026-04-27T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-4-9",
+    "issue_no": 4,
+    "target_type": "direction",
+    "target_id": "⑨",
+    "action": "保留",
+    "note": "用户表态保留，配套唤醒条件",
+    "timestamp": "2026-05-12T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-4-10",
+    "issue_no": 4,
+    "target_type": "direction",
+    "target_id": "⑩",
+    "action": "保留",
+    "note": "用户表态保留——21/22 高分依然保留，触发 F 区标尺自校 v2 候选维度",
+    "timestamp": "2026-05-12T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  },
+  {
+    "id": "fb-4-11",
+    "issue_no": 4,
+    "target_type": "direction",
+    "target_id": "⑪",
+    "action": "保留",
+    "note": "用户表态保留",
+    "timestamp": "2026-05-12T20:00:00+08:00",
+    "source": "auto_migration",
+    "writes_back_to_direction": true
+  }
+]

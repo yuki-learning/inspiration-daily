@@ -1,0 +1,132 @@
+[
+  {
+    "issue_no": 1,
+    "date": "2026-04-27",
+    "title": "微博音频灵感 Agent · v1 试跑",
+    "version_ruler": "v1",
+    "stats": [
+      {
+        "num": 12,
+        "label": "本期信号"
+      },
+      {
+        "num": 8,
+        "label": "≥6 分 · 今日可做"
+      },
+      {
+        "num": 4,
+        "label": "3–5 分 · 持续观察"
+      },
+      {
+        "num": 3,
+        "label": "满分 10/10 信号"
+      }
+    ],
+    "takeaway_short": "",
+    "file": "reports/2026-04-27.json"
+  },
+  {
+    "issue_no": 2,
+    "date": "2026-04-29",
+    "title": "微博音频灵感 Agent · v1.5 标尺第 2 期",
+    "version_ruler": "v1.5",
+    "stats": [
+      {
+        "num": 8,
+        "label": "本期信号"
+      },
+      {
+        "num": 1,
+        "label": "真·新方向 ≥6 分"
+      },
+      {
+        "num": 3,
+        "label": "跟进方向新输入"
+      },
+      {
+        "num": 4,
+        "label": "持续观察"
+      }
+    ],
+    "takeaway_short": "本期看点 · 一个真新方向 + 三个跟进方向的关键新输入。\nParticle（前 Twitter 团队的 AI 新闻 App）用 vector embedding 把\"历史播客片段\"精准映射到\"当下新闻\"，恰好解决了上一期 ③（Timed Links）你顾虑的\"播客生成 vs 热…",
+    "file": "reports/2026-04-29.json"
+  },
+  {
+    "issue_no": 3,
+    "date": "2026-05-08",
+    "title": "微博音频灵感 Agent · v1.5 标尺第 3 期",
+    "version_ruler": "v1.5",
+    "stats": [
+      {
+        "num": 7,
+        "label": "本期信号"
+      },
+      {
+        "num": 2,
+        "label": "真·新方向 ≥13/22"
+      },
+      {
+        "num": 4,
+        "label": "跟进方向新输入"
+      },
+      {
+        "num": 3,
+        "label": "持续观察"
+      }
+    ],
+    "takeaway_short": "本期看点 · 两个真新方向 + 四条跟进新输入。\nSpotify 昨天（5 月 7 日）正式发布 Personal Podcasts——AI agent 读取日历/笔记/个性化数据，生成私人专属音频存入个人库，完全被动消费。这是近 6 个月 AI 音频里最接近\"微博可以直接做同形…",
+    "file": "reports/2026-05-08.json"
+  },
+  {
+    "issue_no": 4,
+    "date": "2026-05-12",
+    "title": "微博音频灵感 Agent · v1.5 标尺第 4 期",
+    "version_ruler": "v1.5",
+    "stats": [
+      {
+        "num": 6,
+        "label": "本期信号"
+      },
+      {
+        "num": 0,
+        "label": "真·新方向"
+      },
+      {
+        "num": 4,
+        "label": "跟进方向新输入"
+      },
+      {
+        "num": 3,
+        "label": "本期入唤醒池"
+      }
+    ],
+    "takeaway_short": "本期看点 · 一周内 AI 音频赛道的\"工业化\"明显加速：OpenAI 5 月 7 日发布三款实时音频模型（GPT-Realtime-2 / Translate / Whisper），把\"语音 agent 能听能想能译能写\"四件套打齐；Spotify 5 月 11 日正式表态欢迎…",
+    "file": "reports/2026-05-12.json"
+  },
+  {
+    "issue_no": 5,
+    "date": "2026-05-18",
+    "title": "微博音频灵感 Agent · v1.5 标尺第 5 期 · 降级版",
+    "version_ruler": "v1.5",
+    "stats": [
+      {
+        "num": 0,
+        "label": "本期信号"
+      },
+      {
+        "num": 0,
+        "label": "真·新方向"
+      },
+      {
+        "num": 1,
+        "label": "跟进方向新输入"
+      },
+      {
+        "num": 0,
+        "label": "本期入唤醒池"
+      }
+    ],
+    "takeaway_short": "本期外部信号扫描作废（A / E 区留空），仅承担三项 PM 决策动作：(1) ⑧ 从『跟进+建议立项』降级到『持续观察』，配 4 条唤醒条件入唤醒池；(2) 唤醒池 4 条（⑦-b / ⑨ / ⑩ / ⑪）逐条扫描，全部判为未触发；(3) F 区给 v2 13 维 26 分制定下『第 6 期正式启用…",
+    "file": "reports/2026-05-18.json"
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "business_name": "微博音频",
+  "north_star_metrics": ["DAU/MAU", "人均使用时长", "次日/7日/30日留存"],
+  "product_context_url": "docs/微博音频灵感Agent_产品说明书v1.md",
+
+  "current_ruler_version": "v1.5",
+
+  "rulers": {
+    "v1": {
+      "max_score": 10,
+      "description": "v1 五维度（每项 0-2 分，总 10 分）。第 1 期试跑用。",
+      "dimensions": [
+        {
+          "key": "mvp_period",
+          "name": "MVP 周期",
+          "max": 2,
+          "scoring_rule": "≤1月=2 / 1-3月=1 / >3月=0",
+          "ruler_version_added": "v1"
+        },
+        {
+          "key": "reuse_content_ecosystem",
+          "name": "复用现有内容生态",
+          "max": 2,
+          "scoring_rule": "完全复用=2 / 部分=1 / 0冷启=0",
+          "ruler_version_added": "v1"
+        },
+        {
+          "key": "leverage_social_graph",
+          "name": "撬动微博社交关系",
+          "max": 2,
+          "scoring_rule": "直接撬动=2 / 弱=1 / 无=0",
+          "ruler_version_added": "v1"
+        },
+        {
+          "key": "serve_listener_kpi",
+          "name": "服务听众侧三大指标",
+          "max": 2,
+          "scoring_rule": "直接服务=2 / 弱=1 / 无=0",
+          "ruler_version_added": "v1"
+        },
+        {
+          "key": "ai_recency",
+          "name": "AI 时效性",
+          "max": 2,
+          "scoring_rule": "近30天=2 / 已成熟=1 / 老技术=0",
+          "ruler_version_added": "v1"
+        }
+      ]
+    },
+    "v1.5": {
+      "max_score": 22,
+      "description": "v1 五维度 + 新增 6 维度（每项 0-2 分，总 22 分）。第 2-4 期在用。",
+      "dimensions": [
+        { "key": "mvp_period", "name": "MVP 周期", "max": 2, "scoring_rule": "≤1月=2 / 1-3月=1 / >3月=0", "ruler_version_added": "v1" },
+        { "key": "reuse_content_ecosystem", "name": "复用现有内容生态", "max": 2, "scoring_rule": "完全复用=2 / 部分=1 / 0冷启=0", "ruler_version_added": "v1" },
+        { "key": "leverage_social_graph", "name": "撬动微博社交关系", "max": 2, "scoring_rule": "直接撬动=2 / 弱=1 / 无=0", "ruler_version_added": "v1" },
+        { "key": "serve_listener_kpi", "name": "服务听众侧三大指标", "max": 2, "scoring_rule": "直接服务=2 / 弱=1 / 无=0", "ruler_version_added": "v1" },
+        { "key": "ai_recency", "name": "AI 时效性", "max": 2, "scoring_rule": "近30天=2 / 已成熟=1 / 老技术=0", "ruler_version_added": "v1" },
+        {
+          "key": "internal_dedup",
+          "name": "内部立项去重",
+          "max": 2,
+          "scoring_rule": "全新方向=2 / 模糊=1 / 已有内部立项=0",
+          "trigger_origin": "『①②已经别的组在做』",
+          "ruler_version_added": "v1.5"
+        },
+        {
+          "key": "structural_advantage",
+          "name": "结构优势匹配",
+          "max": 2,
+          "scoring_rule": "微博独家筹码=2 / 中性=1 / 跟对手强项硬碰=-2（异常扣分）",
+          "trigger_origin": "『经典 IP 音色喜马拉雅更易做』",
+          "ruler_version_added": "v1.5"
+        },
+        {
+          "key": "timing_match",
+          "name": "时序匹配",
+          "max": 2,
+          "scoring_rule": "信号时效 ≈ 生成耗时=2 / 略不匹配=1 / 显著错位=0",
+          "trigger_origin": "『播客生成要时间，热搜是实时的』",
+          "ruler_version_added": "v1.5"
+        },
+        {
+          "key": "user_active_dependency",
+          "name": "用户主动行为依赖度",
+          "max": 2,
+          "scoring_rule": "被动展开=2 / 一次主动=1 / 持续主动按按钮/打字=0",
+          "trigger_origin": "『用户懒，不愿主动问/不知问啥』",
+          "ruler_version_added": "v1.5"
+        },
+        {
+          "key": "author_compliance",
+          "name": "作者合规风险",
+          "max": 2,
+          "scoring_rule": "AI 不替作者表态=2 / 形态轻量=1 / 让作者背锅=0",
+          "trigger_origin": "『作者担心 AI 替自己说错话』",
+          "ruler_version_added": "v1.5"
+        },
+        {
+          "key": "supply_prerequisite",
+          "name": "供给侧前置条件",
+          "max": 2,
+          "scoring_rule": "供给已到位=2 / 部分=1 / 显著未到=0",
+          "trigger_origin": "『英文同传需先有英文音频存量』",
+          "ruler_version_added": "v1.5"
+        }
+      ]
+    },
+    "v2_candidate": {
+      "max_score": 26,
+      "description": "v1.5 11 维 + v2 候选 2 维（组织/依赖准备度 + 决策窗口紧迫度）。第 5 期开始试评，3-5 期数据稳定后正式锁定。",
+      "dimensions_extends": "v1.5",
+      "new_dimensions": [
+        {
+          "key": "org_readiness",
+          "name": "组织/依赖准备度",
+          "max": 2,
+          "scoring_rule": "全 ready=2 / 部分=1 / 关键缺失=0",
+          "trigger_origin": "第 4 期反馈集：3 条高分方向（⑨ 15/22、⑩ 21/22、⑪ 18/22）全部进保留池，说明承接团队 / 路线图档期 / 跨部门接口 / 数据 SLA / 上下游基础组件 是隐性维度。",
+          "ruler_version_added": "v2_candidate"
+        },
+        {
+          "key": "decision_window_urgency",
+          "name": "决策窗口紧迫度",
+          "max": 2,
+          "scoring_rule": "竞品已上 + 存量优势即将过期=2 / 中等=1 / 缓和=0",
+          "trigger_origin": "⑩ 21/22 但 Spotify 已上线，⑨ 15/22 但没有头部对手做——前者更急。",
+          "ruler_version_added": "v2_candidate"
+        }
+      ]
+    }
+  },
+
+  "status_dictionary": [
+    {
+      "key": "采纳",
+      "description": "已确定要做（不一定立项，但方向锁定）。",
+      "color_token": "high",
+      "requires_wakeup": false,
+      "shown_in_next_report": false,
+      "extra": "需填 owning_team；移交对应小组后不再在日报推。"
+    },
+    {
+      "key": "跟进",
+      "description": "当下持续观察 + 调研。",
+      "color_token": "info",
+      "requires_wakeup": false,
+      "shown_in_next_report": true,
+      "extra": "每期日报必现，有新输入则进 C 区。"
+    },
+    {
+      "key": "部分采纳",
+      "description": "一条信号拆成两个方向，部分采纳 + 部分 defer。",
+      "color_token": "mid",
+      "requires_wakeup": false,
+      "shown_in_next_report": true
+    },
+    {
+      "key": "保留",
+      "description": "方向认可但当下不动，挂『唤醒条件』进唤醒池。",
+      "color_token": "purple",
+      "requires_wakeup": true,
+      "shown_in_next_report": false,
+      "extra": "唤醒条件中任一命中即从『保留』回流到当期『今日可做』。"
+    },
+    {
+      "key": "忽略",
+      "description": "已否决（结构劣势 / 时序错位 / 已在做 等等）。",
+      "color_token": "low",
+      "requires_wakeup": false,
+      "shown_in_next_report": false
+    },
+    {
+      "key": "待反馈",
+      "description": "首次出现尚未表态，下期会复现。两期内必须明确为其他 status。",
+      "color_token": "warn",
+      "requires_wakeup": false,
+      "shown_in_next_report": true
+    }
+  ],
+
+  "signal_buckets": [
+    "国内对标动态",
+    "国外对标动态",
+    "AI 技术 · 产品动态",
+    "AI 技术 · 部署模式 + 中文合规",
+    "国外对标 · AI 技术基础设施",
+    "国外对标 · 创作工具",
+    "行业数据 · 风向",
+    "早期 · 风向信号",
+    "早期信号 · 竞品"
+  ],
+
+  "signal_sources_default": [
+    { "name": "WebSearch（10 路并行）", "url_pattern": "", "active": true, "note": "默认配置 10-12 路并行搜索，覆盖国内国外 AI/音频/播客方向。" }
+  ],
+
+  "blocked_directions_default": [
+    "① 信息流语音化（互动组）",
+    "② 热搜→AI 播客（热搜组）",
+    "③ Timed Links（时序错位）",
+    "④ 经典 IP 音色（结构劣势）"
+  ],
+
+  "id_circle_chars": [
+    "①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩",
+    "⑪", "⑫", "⑬", "⑭", "⑮", "⑯", "⑰", "⑱", "⑲", "⑳"
+  ],
+
+  "user_preferences": [
+    "倾向『顺势而为』> 『全新形态』：能挂在现有用户路径上自然延伸的方向，比开新场景更受欢迎",
+    "偏好被动消费 > 主动触发：怕用户『懒』",
+    "不愿砸重金补对方强项",
+    "听众侧 > 作者侧",
+    "输出形式：HTML 文件，对话窗口预览",
+    "倾向『宁缺勿滥』——即便 21/22 高分也可能选保留。说明用户对『动手前要先有依赖项 ready / 调研数据 / 决策窗口』的隐性要求很强。"
+  ],
+
+  "report_section_definitions": {
+    "A": { "title": "现状概况", "purpose": "本期信号汇总（按桶分组）", "always_present": true },
+    "B": { "title": "真·新方向", "purpose": "本期新推方向（≥13/22 v1.5 阈值）", "always_present": true, "may_be_empty": true },
+    "C": { "title": "跟进方向的新输入", "purpose": "给已跟进/部分采纳方向加材料", "always_present": false },
+    "D": { "title": "专题（唤醒条件落地 / 其他）", "purpose": "单期专题区，第 4 期为唤醒条件落地", "always_present": false },
+    "E": { "title": "持续观察", "purpose": "建档不行动", "always_present": true },
+    "F": { "title": "标尺自校", "purpose": "每 2-3 期一次，用反馈集反推标尺漏掉的维度", "always_present": false }
+  },
+
+  "thresholds": {
+    "new_direction_min_score_v1": 6,
+    "new_direction_min_score_v1_5": 13
+  }
+}

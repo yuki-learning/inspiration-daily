@@ -1,0 +1,149 @@
+{
+  "issue_no": 3,
+  "date": "2026-05-08",
+  "version_ruler": "v1.5",
+  "title": "微博音频灵感 Agent · v1.5 标尺第 3 期",
+  "page_title": "2026-05-08 灵感日报",
+  "window_start": "2026-04-30",
+  "window_end": "2026-05-08",
+  "meta": {
+    "search_routes": 12,
+    "data_source": "覆盖窗口：2026-04-30 → 05-08 · 数据源：WebSearch（12 路并行）· 已屏蔽内部立项与上期忽略方向",
+    "phase": "calibration",
+    "blocked_directions": []
+  },
+  "meta_banner": null,
+  "takeaway": {
+    "label": "本期看点",
+    "body": "<strong>本期看点</strong> · 两个真新方向 + 四条跟进新输入。<br/>\nSpotify 昨天（5 月 7 日）正式发布 Personal Podcasts——AI agent 读取日历/笔记/个性化数据，生成私人专属音频存入个人库，完全被动消费。这是近 6 个月 AI 音频里最接近\"微博可以直接做同形态\"的信号：因为微博有 Spotify 没有的东西——社交关系链。用关注博主+热搜互动+话题偏好驱动每日日播，是微博独有的差异化方向 ⑩。与此同时，Google NotebookLM 4 月大更新的 Interactive Audio Overview（播客内随时打断 AI 追问）直接对 ⑦-a AI 节点方向提出了形态升级参考，单独成为方向 ⑪。"
+  },
+  "stats": [
+    {
+      "num": 7,
+      "label": "本期信号"
+    },
+    {
+      "num": 2,
+      "label": "真·新方向 ≥13/22"
+    },
+    {
+      "num": 4,
+      "label": "跟进方向新输入"
+    },
+    {
+      "num": 3,
+      "label": "持续观察"
+    }
+  ],
+  "feedback_prompts": [
+    {
+      "priority": 2,
+      "topic": "⑩ 社交图谱日播 + ⑪ 播客 Interactive AI 追问 —— 各自",
+      "options": [
+        "采纳",
+        "跟进",
+        "忽略"
+      ]
+    }
+  ],
+  "sections": {
+    "A": {
+      "title": "现状概况",
+      "subtitle": "2026-04-30 → 05-08 关键信号",
+      "buckets": [
+        {
+          "title": "国外对标动态",
+          "signal_ids": [
+            "S-21",
+            "S-22"
+          ]
+        },
+        {
+          "title": "AI 技术 · 产品动态",
+          "signal_ids": [
+            "S-23",
+            "S-24",
+            "S-25"
+          ]
+        },
+        {
+          "title": "早期信号 · 竞品",
+          "signal_ids": [
+            "S-26",
+            "S-27"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "title": "真·新方向",
+      "subtitle": "本期 2 条",
+      "new_direction_ids": [
+        "⑩",
+        "⑪"
+      ],
+      "empty_reason": null
+    },
+    "C": {
+      "title": "跟进方向的新输入",
+      "subtitle": "不是新方向，是给已跟进方向加新材料",
+      "followups": [
+        {
+          "direction_id": "⑨",
+          "title": "⑨ 历史播客→当下新闻 45 秒接入 · 催收反馈 + 新佐证",
+          "linked_note": "→ 仍在「待反馈」状态 · 请回复 [采纳 / 跟进 / 部分采纳 / 保留 / 忽略]",
+          "linked_signal_ids": [
+            "S-21"
+          ],
+          "input": "本期 S-21（Spotify Personal Podcasts）进一步强化了 ⑨ 的可行性：Spotify 用 AI 从个人笔记/日历生成播客，技术路径（LLM + TTS + 个性化召回）和 ⑨ 高度重合。区别在于 ⑨ 的\"召回池\"是站内存量播客，更有质量保证，且挂在热搜/新闻下方的触发点更自然（被动遇到，不需主动询问）。<br/><br/>\n ⑨ 和 ⑩ 的关系：⑨ 解决\"遇到新闻时听一段历史音频\"，⑩ 解决\"每天早晨主动推送\"——两者可以共用同一套 vector embedding 索引，是底层互通的两个产品切面。如果 ⑩ 采纳，⑨ 可以作为其\"高光功能延伸\"一并推进，无需单独立项。"
+        },
+        {
+          "direction_id": "⑤",
+          "title": "⑤ 提示词式播客发现 · Spotify Prompted Podcast 上线细节：「推荐理由」是必配 UI 元素",
+          "linked_note": "→ 关联信号 S-22（Spotify Prompted Playlist for Podcasts）",
+          "linked_signal_ids": [
+            "S-22"
+          ],
+          "input": "Spotify 本次播客 Prompted Playlist 有一个 v1 没有的细节：<strong>每集下方附一句 AI 说明\"为什么入选这个播单\"</strong>——用户输入\"帮我找 AI 创业故事\"，AI 推了一集，旁边会说\"这集讲了 Perplexity 创始人早期失败的故事，和你的提示词相关度最高\"。这个透明度设计直接影响\"用户是否点进去听\"。\n 下期⑤方案迭代时建议把 <strong>推荐理由</strong> 作为标配而非可选——特别是微博有关注博主这层社交信号，推荐理由可以是\"你关注的 XX 博主最近在讨论这个主题\"，比算法黑箱更有说服力。"
+        },
+        {
+          "direction_id": "⑥",
+          "title": "⑥ AI 嘉宾问答卡片（另一 chat 迭代中）· Seeduplex 全双工 + NotebookLM Interactive 双重技术验证",
+          "linked_note": "→ 关联信号 S-23（NotebookLM Interactive Audio）+ S-24（字节 Seeduplex）",
+          "linked_signal_ids": [
+            "S-23",
+            "S-24"
+          ],
+          "input": "两个技术信号同步支撑⑥的\"轻量 Interactive 形态\"方向：(1) Seeduplex 全双工——用户说话和 AI 说话可以并行，\"随时打断\"在工程上不再是难题；(2) NotebookLM Interactive Mode——Google 选择的\"被动听 + 主动打断\"混合形态与⑥在另一 chat 讨论的轻量版路线几乎一致，是大厂级验证。\n <strong>建议在另一 chat 的⑥ v2 讨论中加入这两条信号</strong>——特别是 Seeduplex 的全双工能力，可以重新评估\"完全被动\"形态的实现成本是否低于预期。<br/>\n<span style=\"color:var(--muted);font-size:12px\">（⑥ 进度由另一 chat 维护，本条仅同步，不展开方案）</span>"
+        },
+        {
+          "direction_id": "⑧",
+          "title": "⑧ 音频高光 → 视频 · AI 短视频工具爆发 + Rebel Audio 资本验证，建议正式评估立项",
+          "linked_note": "→ 关联信号 S-26（Rebel Audio）+ AI 工具生态（Choppity/OpusClip/Flowjin）",
+          "linked_signal_ids": [
+            "S-26"
+          ],
+          "input": "本期两个信号进一步强化⑧的优先级：(1) Rebel Audio $3.8M 出 stealth，说明\"AI 辅助播客生产\"已有资本背书，赛道窗口期正在到来；(2) AI 短视频剪辑工具（Choppity、OpusClip、Flowjin）在 2026 年已成熟且 API 化，<strong>音频高光切片的生产成本几乎归零</strong>——意味着如果微博今年不上，其他平台集成这些 API 后会比你快。\n 建议把⑧从\"跟进\"升级到\"评估立项\"，重点讨论：是自研高光识别还是接第三方 API；版权模型怎么和作者分成；跳转完整集的转化数据如何测。"
+        }
+      ]
+    },
+    "D": {
+      "title": "持续观察",
+      "subtitle": "不行动但建档",
+      "items": [
+        {
+          "text": "<strong>AI 生成播客占比告警（约 39% feeds）</strong> · Podcast Index 9 天内统计，约 39% 新增 feed 被判定为 AI 生成。质量参差不齐。对微博而言是平台治理信号——如果开放 AI 内容投稿，需提前设计质量分层机制，否则稀释优质人工播客分发权重。",
+          "score": "行业风险"
+        },
+        {
+          "text": "<strong>Claude + Spotify 集成（AI 对话驱动播客发现）</strong> · Spotify 用户可将账号连接到 Claude，通过对话获取基于收听历史的个性化播客推荐。对微博意味着：AI 对话入口（微博有 AI 搜索/话题 AI）可能是未来播客发现的一条路径，但时机和形态待观察。",
+          "score": "7/22"
+        },
+        {
+          "text": "<strong>Washington Post「Your Personal Podcast」</strong> · WaPo 用 AI 为订阅用户定制播客，把新闻 feed 算法 × 音频形式结合。媒体级验证\"个人化音频日播\"需求，但内容来源是新闻而非社交内容，和 ⑩ 有本质区别。跟踪后续用户数据（有无公开）。",
+          "score": "9/22"
+        }
+      ]
+    }
+  }
+}

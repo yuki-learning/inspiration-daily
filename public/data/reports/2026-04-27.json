@@ -1,0 +1,96 @@
+{
+  "issue_no": 1,
+  "date": "2026-04-27",
+  "version_ruler": "v1",
+  "title": "微博音频灵感 Agent · v1 试跑",
+  "page_title": "2026-04-27 灵感日报",
+  "window_start": null,
+  "window_end": "2026-04-27",
+  "meta": {
+    "search_routes": 10,
+    "data_source": "覆盖窗口：过去 ~7 天主线信号 · 数据源：WebSearch（10 路并行）· 打分基于 v1 五维度标尺",
+    "phase": "calibration",
+    "blocked_directions": []
+  },
+  "meta_banner": null,
+  "takeaway": null,
+  "stats": [
+    {
+      "num": 12,
+      "label": "本期信号"
+    },
+    {
+      "num": 8,
+      "label": "≥6 分 · 今日可做"
+    },
+    {
+      "num": 4,
+      "label": "3–5 分 · 持续观察"
+    },
+    {
+      "num": 3,
+      "label": "满分 10/10 信号"
+    }
+  ],
+  "feedback_prompts": [],
+  "sections": {
+    "A": {
+      "title": "现状概况",
+      "subtitle": "过去 24h–7d 信号汇总",
+      "buckets": [
+        {
+          "title": "国内对标动态",
+          "signal_ids": [
+            "S-01",
+            "S-02",
+            "S-03",
+            "S-04"
+          ]
+        },
+        {
+          "title": "国外对标动态",
+          "signal_ids": [
+            "S-05",
+            "S-06",
+            "S-07"
+          ]
+        },
+        {
+          "title": "AI 技术 · 产品动态",
+          "signal_ids": [
+            "S-08",
+            "S-09",
+            "S-10"
+          ]
+        },
+        {
+          "title": "早期 · 风向信号",
+          "signal_ids": [
+            "S-11",
+            "S-12"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "title": "今日可做方向",
+      "subtitle": "≥6 分信号衍生 · 8 条",
+      "new_direction_ids": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤",
+        "⑥",
+        "⑦",
+        "⑧"
+      ],
+      "empty_reason": null
+    },
+    "C": {
+      "title": "持续观察",
+      "subtitle": "3–5 分 / 暂不行动但需建档",
+      "items_legacy_watch": []
+    }
+  }
+}

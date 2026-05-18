@@ -1,0 +1,783 @@
+[
+  {
+    "id": "S-01",
+    "title": "小红书：AI 语音全链路接入社区（评论可发声 / 语音问一问 / 语音私信）",
+    "score_value": 10,
+    "score_max": 10,
+    "score_label": "high",
+    "date": null,
+    "source_label": "来源：网易科技 · 2026 春节启动 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://m.163.com/dy/article/KLITFTP30511AQHO.html"
+      }
+    ],
+    "summary": "小红书在 2026 年春节开启 AI 语音全链路应用：语音发布、语音评论、语音问一问（替代部分搜索）、语音私信拜年。把\"音频\"变成社区基础设施而不是单独频道。",
+    "why_matters": "这是直接打微博命门的玩法——把音频从\"听一段播客\"变成\"刷信息流时随处可发声\"，对时长和留存的拉动可能比独立播客 App 还高。",
+    "issue_no_origin": 1,
+    "category": "国内对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-02",
+    "title": "B 站：\"代号 H\" AI 工具帮播客作者将音频转视频",
+    "score_value": 7,
+    "score_max": 10,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：知乎《2025 中文播客市场洞察报告》·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://zhuanlan.zhihu.com/p/1993815651605832176"
+      }
+    ],
+    "summary": "B 站内部 AI 工具帮音频创作者把内容快速转成视频形态投放，配合 7 月发布的\"视频播客出圈计划\"——10 亿冷启流量 + 免费录制场地。",
+    "why_matters": "和你\"金句→图文\"思路同源，只是落点是视频。可以反过来想：\"播客 ASR + 自动配视觉\"也能在微博图文场域做。",
+    "issue_no_origin": 1,
+    "category": "国内对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-03",
+    "title": "喜马拉雅：单田芳 AI 音色 100+ 张专辑播放破亿",
+    "score_value": 9,
+    "score_max": 10,
+    "score_label": "high",
+    "date": null,
+    "source_label": "来源：知乎播客洞察报告 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://zhuanlan.zhihu.com/p/1993815651605832176"
+      }
+    ],
+    "summary": "喜马拉雅\"珠峰实验室\"上线了 100+ 张用单田芳先生 AI 合成音色制作的 AIGC 专辑，总播放过亿。把已故大师的音色资产化、内容化。",
+    "why_matters": "微博手握的明星/大 V 音色资产远比喜马多，且自带社交关系——这条路径几乎是为微博定制的。",
+    "issue_no_origin": 1,
+    "category": "国内对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-04",
+    "title": "小宇宙 PLUS：AI 播客总结 + 外语播客同传（付费墙后）",
+    "score_value": 8,
+    "score_max": 10,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：知乎《2025 中文播客市场洞察报告》·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://zhuanlan.zhihu.com/p/1993815651605832176"
+      }
+    ],
+    "summary": "小宇宙在 PLUS 会员里集成了\"AI 播客总结\"和\"外语播客同声传译\"两项核心 AI 权益，把 AI 当作付费转化的核心抓手而非免费功能。",
+    "why_matters": "两个功能本身技术门槛已经很低（成熟 ASR + LLM 摘要 + TTS 同传），但定位为付费功能值得思考——微博是要做付费墙还是做开放免费来拉规模？",
+    "issue_no_origin": 1,
+    "category": "国内对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-05",
+    "title": "Spotify Prompted Playlist 扩展到播客（一句话生成播客发现列表）",
+    "score_value": 8,
+    "score_max": 10,
+    "score_label": "mid",
+    "date": "2026-04-07",
+    "source_label": "来源：Spotify Newsroom · 2026-04-07 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://newsroom.spotify.com/2026-04-07/prompted-playlist-for-podcasts-launch/"
+      },
+      {
+        "name": "TC 报道",
+        "url": "https://techcrunch.com/2026/04/07/spotifys-prompted-playlist-feature-will-now-work-for-podcasts-too/"
+      }
+    ],
+    "summary": "Spotify Prompted Playlist 从音乐扩展到播客：用户输入一句提示（\"想找点能在通勤时听的轻松科技八卦\"），AI 即生成一个动态播客列表，并标注每条入选理由，可设每天/每周自动刷新。",
+    "why_matters": "这套交互形态是\"播客发现\"的下一代标准。微博的优势是社交画像 + 热搜 + 关注关系，Prompt 维度比 Spotify 更丰富（可以加\"我关注的人最近在听什么\"）。",
+    "issue_no_origin": 1,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-06",
+    "title": "Apple Podcasts：自动 timed links（嘉宾提到的书/股票/链接自动浮起）",
+    "score_value": 9,
+    "score_max": 10,
+    "score_label": "high",
+    "date": null,
+    "source_label": "来源：Podnews · iOS 26.4 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://podnews.net/update/apple-podcasts-chapters-timedlinks"
+      },
+      {
+        "name": "Apple 官方",
+        "url": "https://www.apple.com/newsroom/2026/02/apple-introduces-a-new-video-podcast-experience-on-apple-podcasts/"
+      }
+    ],
+    "summary": "Apple Podcasts 的 timed links：当播客中提到一本书、一首歌、一条新闻、一只股票、一个产品时，对应链接会在播放器中自动弹出对应时间点。叠加自动 chapters 与 13 语种 transcript。",
+    "why_matters": "这是微博生态的天选场景：嘉宾提到的话题→自动跳热搜，提到的人→自动 @，提到的商品→直接挂购物链接。Apple 做的是\"信息富化\"，微博能做\"社交富化 + 商业化\"。",
+    "issue_no_origin": 1,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-07",
+    "title": "NotebookLM Audio Overview：UI 升级 + 80 语种 + 长内容更全面",
+    "score_value": 9,
+    "score_max": 10,
+    "score_label": "high",
+    "date": "2026-04-09",
+    "source_label": "来源：Google Blog · 2026-04-09 ·",
+    "source_urls": [
+      {
+        "name": "UI 详情",
+        "url": "https://jetstream.blog/en/notebooklm-audio-overview-player-ui-update/"
+      },
+      {
+        "name": "官方公告",
+        "url": "https://blog.google/technology/google-labs/notebook-lm-audio-video-overviews-more-languages-longer-content/"
+      }
+    ],
+    "summary": "NotebookLM Audio Overview 在 4 月升级播放器 UI（新增 10 秒回退、更细颗粒倍速 0.5x–2.0x），同时全球扩展到 80 语种，所有 Audio Overview 升级为更长更深入版本。",
+    "why_matters": "NotebookLM 是当前定义\"AI 生成播客\"形态的标杆。微博完全可以做中文版+社交版：\"给我生成一段关于今天微博热搜 #XXX 的 5 分钟双主播播客\"。",
+    "issue_no_origin": 1,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-08",
+    "title": "实时端到端语音浪潮：gpt-realtime / 豆包 / Gemini 3.1 Flash Live / MiniMax Speech 2.6 同步推进",
+    "score_value": 8,
+    "score_max": 10,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：OpenAI · ByteDance · DeepMind · MiniMax · 集中发布于 2026-Q1/Q2 ·",
+    "source_urls": [
+      {
+        "name": "gpt-realtime",
+        "url": "https://openai.com/index/introducing-gpt-realtime/"
+      },
+      {
+        "name": "MiniMax 2.6",
+        "url": "https://www.minimaxi.com/news/minimax-speech-26"
+      },
+      {
+        "name": "Gemini 3.1 Flash Live",
+        "url": "https://www.marktechpost.com/2026/03/26/google-releases-gemini-3-1-flash-live-a-real-time-multimodal-voice-model-for-low-latency-audio-video-and-tool-use-for-ai-agents/"
+      }
+    ],
+    "summary": "本季四家旗舰：gpt-realtime（生产可用语音）/ 豆包实时语音大模型（端到端 + 4 种方言 + 5 月加视频通话）/ Gemini 3.1 Flash Live（低延迟多模态 + 工具调用）/ MiniMax Speech 2.6（端到端延迟 &lt;250ms + Fluent LoRA 声音克隆）。共同特征：端到端、低延迟、可打断、情感自然。",
+    "why_matters": "底层模型从\"能说\"变成\"能聊\"了。最直接的产品形态：把\"播放播客\"升级为\"和播客嘉宾的 AI 分身实时对话\"。这件事 6 个月前还做不出来。",
+    "issue_no_origin": 1,
+    "category": "AI 技术 · 产品动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-09",
+    "title": "Suno v5.5：声音克隆 + 个性化模型 + 口味学习",
+    "score_value": 6,
+    "score_max": 10,
+    "score_label": "low",
+    "date": null,
+    "source_label": "来源：weraveyou · 2026-04 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://weraveyou.com/2026/04/suno-v-5-5-voice-cloning-custom-models-taste-profiling/"
+      }
+    ],
+    "summary": "Suno v5.5 三件套：Voices（用户上传自己唱声训练模型）、Custom Models（用自有曲库训练个性化版本）、My Taste（学习用户偏好引导生成）。Deezer 同期数据：每日 7.5 万首 AI 生成音乐上传，占新上传 44%。",
+    "why_matters": "音乐生成更多是供给侧创作工具，对你\"听众侧拉规模\"目标是间接相关。但 My Taste 这个\"个性化生成\"思路，可迁移到\"为每位听众生成专属播客片头/BGM/睡前白噪\"。",
+    "issue_no_origin": 1,
+    "category": "AI 技术 · 产品动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-10",
+    "title": "ElevenLabs：ElevenMusic App + Video-to-Music endpoint",
+    "score_value": 8,
+    "score_max": 10,
+    "score_label": "mid",
+    "date": "2026-04-02",
+    "source_label": "来源：TechCrunch · 2026-04-02 + ElevenLabs Changelog 4 月 ·",
+    "source_urls": [
+      {
+        "name": "TC",
+        "url": "https://techcrunch.com/2026/04/02/elevenlabs-releases-a-new-ai-powered-music-generation-app/"
+      },
+      {
+        "name": "Changelog",
+        "url": "https://elevenlabs.io/docs/changelog/2026/4/7"
+      }
+    ],
+    "summary": "ElevenMusic App 上线（自然语言生成歌曲，每日 7 首免费），同时开放 video-to-music endpoint（输入视频生成配乐，可加风格 tag）。Agent 侧增加版本管理、对话再分析、工具 mock 等开发者能力。",
+    "why_matters": "\"输入视频出 BGM\"反过来是微博音频的母题——\"输入长博文/微博视频出有声化版本\"。技术成本随这个 endpoint 的开放而显著降低。",
+    "issue_no_origin": 1,
+    "category": "AI 技术 · 产品动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-11",
+    "title": "Inception Point AI：8 人团队 / 3000 集每周 / 1200 万累计下载",
+    "score_value": 6,
+    "score_max": 10,
+    "score_label": "low",
+    "date": null,
+    "source_label": "来源：The Hollywood Reporter / The Wrap ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://www.thewrap.com/ai-podcasts-hosts-inception-point-ai/"
+      }
+    ],
+    "summary": "前 Wondery 高管创立的 AI 播客工厂 Inception Point AI，用 8 人团队每周产出 3000 集（覆盖天气、花粉、新闻人物传记），其 Quiet Please 网络累计 1200 万下载、40 万订阅。",
+    "why_matters": "规模化 AIGC 长尾内容的可行性已被验证。微博若做\"为每个热搜话题自动生一档当日播客\"，量级是 1 个热榜 = 50 集/天。",
+    "issue_no_origin": 1,
+    "category": "早期 · 风向信号",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-12",
+    "title": "Rebel Audio：$3.8M 种子，\"播客界的 Canva\"",
+    "score_value": 5,
+    "score_max": 10,
+    "score_label": "low",
+    "date": null,
+    "source_label": "来源：Pulse2 / Podnews ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://pulse2.com/rebel-audio-3-8-million-raised-for-aipowered-podcast-creation-platform/"
+      }
+    ],
+    "summary": "Rebel Audio 完成 $3.8M 种子轮，定位\"播客创作 Canva\"，从 idea 到分发一站式 AI 工具链。配合 Jellypod（30 语种 AI 播客创建）、Wondercraft 等同类。",
+    "why_matters": "海外创作工具层正在被 AI 重做。微博若不做创作工具层，至少要观察 1–2 个进入中国并产生威胁。",
+    "issue_no_origin": 1,
+    "category": "早期 · 风向信号",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-13",
+    "title": "Particle（前 Twitter 团队 AI 新闻 App）：Podcast Clips 用 vector embedding 把播客金句精准接到新闻流",
+    "score_value": 15,
+    "score_max": 22,
+    "score_label": "high",
+    "date": "2026-02-23",
+    "source_label": "来源：TechCrunch · 2026-02-23 上线，4 月持续扩展 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/"
+      },
+      {
+        "name": "PodcastNewsDaily",
+        "url": "https://www.podcastnewsdaily.com/news/new-app-particle-adds-ai-powered-podcast-clips-to-personalized-newsfeeds/article_0dce0df7-f2a7-4dfb-8547-87fc47579978.html"
+      }
+    ],
+    "summary": "Particle 用向量嵌入识别\"一集播客的哪 45 秒在讲哪条新闻\"——一集播客可能覆盖 10–20 个故事，AI 自动切片并挂在对应新闻下方。用户读新闻时可一键听 45 秒原声片段，也可选读高亮转录文本。$2.99/月 Premium 版还提供\"个性化语音播报新闻\"。",
+    "why_matters": "这恰好是上期 ③ 你顾虑的时序问题的反向解法——不是\"为热搜实时生成播客\"，而是\"从存量播客里精准摘出与当下事件相关的 45 秒\"。Particle 已用 ElevenLabs API 跑通，技术路径成熟。",
+    "issue_no_origin": 2,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-14",
+    "title": "Spotify Q1 2026 财报：Prompted Playlist 美加全开 + Taste Profile（让用户反向\"看见和调整\"自己的算法画像）",
+    "score_value": 11,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": "2026-04-28",
+    "source_label": "来源：Spotify Newsroom · 2026-04-28 财报 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://newsroom.spotify.com/2026-04-28/spotify-q1-2026-earnings/"
+      }
+    ],
+    "summary": "Q1 财报披露两个重点：(1) Prompted Playlist 从 Beta 扩展到美加全部 Premium 用户，含播客；(2) Taste Profile —— 一个新的可视化界面，让用户看见 Spotify 怎么理解他的口味（标签云形式），并能直接编辑/删除标签来反向调整推荐。新西兰首发，全球扩展中。",
+    "why_matters": "Taste Profile 这套\"算法可视化 + 用户反向修正\"的形态比 Prompted Playlist 更深一层。微博的画像维度（关注/话题/转评）比 Spotify 复杂得多，对应可做\"我的微博音频画像\"专页，但要小心\"开盒式\"的隐私感。属于 ⑤ 提示词式发现的进阶动作。",
+    "issue_no_origin": 2,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-15",
+    "title": "Amazon \"Hear the highlights + Join the Chat\"：商品页 AI 双主播音频摘要 + 用户中途打断提问",
+    "score_value": 10,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": "2026-04-28",
+    "source_label": "来源：TechCrunch · 2026-04-28 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/"
+      },
+      {
+        "name": "Amazon 官方",
+        "url": "https://www.aboutamazon.com/news/retail/amazon-hear-the-highlights-join-the-chat"
+      }
+    ],
+    "summary": "Amazon 商品页加\"听重点\"按钮，AI 主播用对话形式播报 30 秒商品摘要（基于评论 + 商品参数）；用户可点\"加入对话\"打断提问（\"这咖啡机适合新手吗\"\"这毛衣会扎人吗\"），AI 实时回答后回到主播报继续讲。美国双端已上线。",
+    "why_matters": "这个形态本质是\"AI 嘉宾问答卡片\"在电商的实现，且大厂选择\"被动播报 + 主动打断\"的混合形态而非纯被动 —— 给在另一对话讨论中的 ⑥ 形态设计提供了重要参考。Amazon 选择\"基于评论的 RAG\"（信息源是评论池）和你提的\"基于 ASR 的 RAG\"思路同构。",
+    "issue_no_origin": 2,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-16",
+    "title": "YouTube 给音频播客自动生成可定制视频版本 + AI 短片建议 + 动态广告插入（SXSW 2026 测试中）",
+    "score_value": 10,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：Castos / SocialBee 综合 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://castos.com/youtube-podcasts/"
+      },
+      {
+        "name": "YouTube 4 月更新汇总",
+        "url": "https://socialbee.com/blog/youtube-updates/"
+      }
+    ],
+    "summary": "YouTube 在 2026 推出三件套：(1) 音频播客自动生成可定制视频版本（解决静态图掉率 90–95% 的问题）；(2) AI 自动建议适合切短片的时间点；(3) 动态广告插入，让创作者可重新售卖历史集的广告位。",
+    "why_matters": "行业数据补充：58% 新听众通过短视频片段发现播客。YouTube 自动出\"完整视频版\"和你跟进中的 ⑧\"音频高光→视频\"是同一战场，且 YouTube 选择更激进的\"全视频版\"路径，而你的\"高光视频\"路径其实更适合微博图文场域。",
+    "issue_no_origin": 2,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-17",
+    "title": "OpenAI Realtime mini + Audio mini + 新 TTS：WER 降 35%，价格不变",
+    "score_value": 9,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：OpenAI Developers Blog · 2026-04 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://developers.openai.com/blog/updates-audio-models"
+      }
+    ],
+    "summary": "OpenAI 上周发布新音频模型快照：Realtime mini 和 Audio mini 工具调用与指令跟随显著优化，与 full-size 版本差距收窄；TTS 在 Common Voice 和 FLEURS 基准上 WER 比上代降约 35%；自定义音色保真度提升。价格不变，建议直接切换。",
+    "why_matters": "Mini 模型是\"批量化跑 AI 摘要 / AI 语音回答\"等高频场景的成本压缩方案。如果你跟进 ⑦-a（AI 摘要扩展 AI 节点）开始量产，这个新模型直接节省成本。",
+    "issue_no_origin": 2,
+    "category": "AI 技术 · 产品动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-18",
+    "title": "国内大模型 4 月集体迭代：豆包 Seed-1.6 / Seed-1.6-Thinking、MiniMax Speech-02、阶跃星辰 step-r1-v-mini",
+    "score_value": 7,
+    "score_max": 22,
+    "score_label": "low",
+    "date": "2026-04-24",
+    "source_label": "来源：知乎大模型动态汇总 · 2026-04-24 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://zhuanlan.zhihu.com/p/670574382"
+      }
+    ],
+    "summary": "字节豆包发布 Seed-1.6 和 Seed-1.6-Thinking（推理模型），同步推 Seedance 1.0 视频和 Seedream 3.0 图像；MiniMax 升级 Speech-02；阶跃星辰发 step-r1-v-mini（视觉推理小模型）。整体节奏：每家都在出\"端到端语音 + 推理 + 多模态\"组合。",
+    "why_matters": "国内供给侧持续走密集迭代节奏，端到端语音的能力差距正在被快速抹平。对微博而言意味着：选模型不必锁死一家，可在最终上线前再 benchmark 各家延迟、自然度、成本三个维度。",
+    "issue_no_origin": 2,
+    "category": "AI 技术 · 产品动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-19",
+    "title": "视频播客成主流：95% 用户认知 / 42% 增长 / 58% 新听众通过短视频片段发现",
+    "score_value": 8,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：人人都是产品经理 / 36 氪 · 2026-04 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://www.woshipm.com/it/6304393.html"
+      },
+      {
+        "name": "36 氪深度",
+        "url": "https://www.36kr.com/p/3587610101186823"
+      }
+    ],
+    "summary": "2026 视频播客从\"补充形态\"成为\"主流形态\"。CPA 数据：95% 用户对视频播客有认知，42% 用户消费量增长，58% 新听众通过短视频片段发现播客。鲁豫《岩中花述》在 B 站单集百万播放，罗永浩与李想播客 24h 内播放破 2000 万。",
+    "why_matters": "这条数据强化了你跟进中的 ⑧\"音频高光→视频\"——58% 通过短片段发现，意味着这件事不是\"锦上添花\"，而是新听众的主入口。",
+    "issue_no_origin": 2,
+    "category": "行业数据 · 风向",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-20",
+    "title": "Adobe Podcast Enhance Speech v2 在 Product Hunt 高排名（304 upvotes）",
+    "score_value": 5,
+    "score_max": 22,
+    "score_label": "low",
+    "date": null,
+    "source_label": "来源：Product Hunt / Hunted Space ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://hunted.space/dashboard/adobe-podcast-enhance-speech-v2"
+      }
+    ],
+    "summary": "Adobe Podcast 的语音增强工具升级到 v2，主要改进降噪、回声消除、声场均衡，免费在线版可用。同期还有 Stet（开源听写工具，4-22 上线）等小型音频 AI 工具集中冒出。",
+    "why_matters": "UGC 播客作者门槛持续下降。如果你做轻量化创作工具或者帮助新作者上手的辅助功能，这一类工具 API 化能大幅提升进站作者音频质量。",
+    "issue_no_origin": 2,
+    "category": "行业数据 · 风向",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-21",
+    "title": "Spotify Personal Podcasts（5 月 7 日发布）：AI agent 读取日历/笔记/个人数据，生成私人专属音频自动存入个人库",
+    "score_value": 21,
+    "score_max": 22,
+    "score_label": "high",
+    "date": "2026-05-07",
+    "source_label": "来源：Spotify Newsroom · 2026-05-07 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://newsroom.spotify.com/2026-05-07/personal-podcasts-launch/"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/"
+      },
+      {
+        "name": "9to5Google",
+        "url": "https://9to5google.com/2026/05/07/spotify-personal-podcasts-ai-agents/"
+      }
+    ],
+    "summary": "Spotify 通过 CLI 工具允许 AI agent（已接入 OpenAI Codex、Claude Code、OpenClaw）将 AI 生成的个人音频直接保存到用户 Spotify 库。用例举例：晨间播报（扫日历+天气+新闻），学习系列（从笔记/文章生成），周计划语音版。生成的播客私密、不可被他人发现。Beta 阶段，全球 Free 和 Premium 均可用，有使用量上限。",
+    "why_matters": "Spotify 用通用 AI agent 打开了\"个性化日播\"的口子，但它没有社交图谱——用户自己拼 prompt、接日历，才能\"个性化\"。微博的优势正在这里：关注博主、热搜互动、话题标签是用户从未手动配置的天然画像。如果微博做同形态，可以做到比 Spotify 更懂用户，且完全被动触发，门槛为零。这是触发方向 ⑩ 的核心信号。",
+    "issue_no_origin": 3,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-22",
+    "title": "Spotify Prompted Playlist for Podcasts（4 月 7 日正式上线）：自然语言 → 播客播单 + AI 解释每集入选理由",
+    "score_value": 12,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": "2026-04-07",
+    "source_label": "来源：Spotify Newsroom · 2026-04-07 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://newsroom.spotify.com/2026-04-07/prompted-playlist-for-podcasts-launch/"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/04/07/spotifys-prompted-playlist-feature-will-now-work-for-podcasts-too/"
+      }
+    ],
+    "summary": "Prompted Playlist 正式扩展到播客：输入\"我最近想深入研究一个话题但不知道从哪听起\"或\"给我推适合通勤的商业播客\"，AI 生成播单+每集为什么入选这个播单的一句解释。英语 Premium 用户首发（美/加/英/澳/纽/瑞）。结合 Taste Profile（3 月上线）用户可反向编辑自己的口味标签调整推荐。",
+    "why_matters": "这是⑤（提示词式播客发现）的最直接竞品动作。核心新点：AI 不只推荐，还解释\"为什么推你这集\"——透明度→用户信任→接受率↑。微博做⑤时要把\"推荐理由\"作为 UI 标配，这是本期⑤的关键新输入。",
+    "issue_no_origin": 3,
+    "category": "国外对标动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-23",
+    "title": "Google NotebookLM 4 月大更新：Studio Factory（Audio/Video/FAQ/思维导图一键生成）+ Interactive Audio（随时打断 AI 主持人追问）",
+    "score_value": 18,
+    "score_max": 22,
+    "score_label": "high",
+    "date": null,
+    "source_label": "来源：Google Workspace Updates · 2026-04 ·",
+    "source_urls": [
+      {
+        "name": "Google Blog",
+        "url": "https://workspaceupdates.googleblog.com/2026/03/new-ways-to-customize-and-interact-with-your-content-in-NotebookLM.html"
+      },
+      {
+        "name": "更新解读",
+        "url": "https://bibigpt.co/en/features/notebooklm-2026-update-explained"
+      }
+    ],
+    "summary": "NotebookLM 新增\"Studio Factory\"：在任意上传内容上一键生成 Audio Overview（AI 双主播讨论）、Video Overview、FAQ、思维导图、学习指南、Briefing Doc，同时接入 Google Classroom。最关键的新形态是 <strong>Interactive Audio Mode</strong>：听 Audio Overview 中途可点击\"加入对话\"，一位 AI 主持人暂停、\"呼叫\"用户，用户用语音追问（\"这里没懂，能解释一下吗？\"\"跳到第三章\"），AI 回答后无缝回到双主播对话。目前 Interactive Mode 仅英文。",
+    "why_matters": "Interactive Audio Mode 是对⑥（AI 嘉宾问答卡片）形态的直接技术验证——Google 选择\"被动听 + 主动打断\"的混合模式而非纯被动，和 Amazon Join the Chat（S-15，上期）路线一致，已形成行业共识。更直接地，这个形态可以用于⑦-a 的进阶版：在听播客章节时加入\"AI 联系人\"打断追问，构成方向 ⑪。",
+    "issue_no_origin": 3,
+    "category": "AI 技术 · 产品动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-24",
+    "title": "字节跳动 Seeduplex（4 月 9 日全量）：全双工端到端语音模型，支持随时打断 + 情感承接 + 18 种方言理解",
+    "score_value": 11,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": "2026-04-09",
+    "source_label": "来源：字节 Seed 博客 · 2026-04-09 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://seed.bytedance.com/en/blog/%E8%B1%86%E5%8C%85%E5%AE%9E%E6%97%B6%E8%AF%AD%E9%9F%B3%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%B8%8A%E7%BA%BF%E5%8D%B3%E5%BC%80%E6%94%BE-%E6%83%85%E5%95%86%E6%99%BA%E5%95%86%E5%8F%8C%E9%AB%98"
+      }
+    ],
+    "summary": "豆包 Seeduplex 是端到端全双工（Full-Duplex）语音模型，通信双方可同时收发信号，彻底告别\"等对方说完再说\"的半双工体验。支持 4 种方言（粤语/川话/东北话/陕西话）+ 识别 18 种方言。情感承接能力显著优于上代：可以\"听出对方在绕弯\"并自然接话。豆包 App 当天全量。DeerFlow 框架（字节开源 agent 框架）已集成双主播 TTS 播客自动化生成。",
+    "why_matters": "全双工对⑥（AI 嘉宾问答卡片）和⑪（播客 Interactive AI 追问）两个方向都是关键技术信号：它意味着\"用户随时插话\"的体验不再需要专门处理等待感。方言支持对微博的普话+方言内容场景也有参考。技术成本侧：Seeduplex 已开放 API，可作为语音 agent 后端选项 benchmark。",
+    "issue_no_origin": 3,
+    "category": "AI 技术 · 产品动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-25",
+    "title": "ElevenLabs 2026 全平台化：ElevenAgents（MCP + Git 分支调试）+ 与 IBM watsonx 企业级合作",
+    "score_value": 9,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：ElevenLabs 官方 ·",
+    "source_urls": [
+      {
+        "name": "v3 模型页",
+        "url": "https://elevenlabs.io/v3"
+      },
+      {
+        "name": "IBM 合作公告",
+        "url": "https://newsroom.ibm.com/2026-03-25-enterprise-ai-finds-its-voice-elevenlabs-and-ibm-bring-premium-voice-capabilities-to-agentic-ai"
+      },
+      {
+        "name": "2026 综合指南",
+        "url": "https://standout.digital/post/elevenlabs-in-2026-the-complete-guide-to-v3-agents-music-and-scribe"
+      }
+    ],
+    "summary": "ElevenLabs 2026 分三大支柱：(1) ElevenAgents——对话式 AI 语音 agent 平台，支持 MCP 集成（CRM 查询/预约/支付均可在语音对话中实时触发），新增 Git-style 分支调试和安全护栏；(2) ElevenCreative——端到端 AI 媒体生产工作流（语音+音乐+音效）；(3) Eleven v3 语音模型——表现力显著提升。与 IBM watsonx Orchestrate 合作，把 TTS/STT 嵌入企业 agentic AI 流程。",
+    "why_matters": "ElevenLabs 正在从\"TTS API\"演变为\"AI 音频 OS\"，MCP 接入意味着语音 agent 可以在播客播放中途联动外部服务。对⑥（AI 嘉宾问答）的技术路径有参考价值；Eleven v3 可替代或 benchmark 现有 TTS 方案。",
+    "issue_no_origin": 3,
+    "category": "AI 技术 · 产品动态",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-26",
+    "title": "Rebel Audio 出 Stealth：$3.8M 融资，AI 播客生产平台，Mark Burnett 任顾问",
+    "score_value": 8,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：Variety · 2026-05 ·",
+    "source_urls": [
+      {
+        "name": "原文",
+        "url": "https://variety.com/2026/digital/news/rebel-audio-ai-podcast-mark-burnett-1236683633/"
+      }
+    ],
+    "summary": "Nashville 创业公司 Rebel Audio 获 $3.8M 天使轮，由 The Voice/Survivor 制片人 Mark Burnett 担任顾问，专注于\"降低播客生产门槛\"——AI 协助节目策划、录制增强、剪辑、发行全流程。同期行业数据：Podcast Index 记录显示 9 天内新增 podcast feeds 中约 39% 被判定为 AI 生成。",
+    "why_matters": "AI 播客生产工具的资本关注度在升温；39% AI-generated feeds 意味着供给侧\"内容洪流\"正在来临。对微博而言，平台需要考虑 AI 生成内容的质量分层和运营策略，否则可能稀释优质人工播客的分发资源。属于需要建档的行业风向。",
+    "issue_no_origin": 3,
+    "category": "早期信号 · 竞品",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-27",
+    "title": "国内对标：喜马拉雅 100+ AIGC 专辑超 1 亿播放；小宇宙 PLUS 上线 AI 播客总结 + 外语同传",
+    "score_value": 8,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：媒体综合报道 · 2026-04 ·",
+    "source_urls": [
+      {
+        "name": "证券时报",
+        "url": "https://stcn.com/article/detail/2788384.html"
+      }
+    ],
+    "summary": "喜马拉雅珠峰实验室：利用 AI 合成音制作 AIGC 专辑超过 100 张，总播放量破 1 亿，主打有声书和 IP 音色复刻赛道，已建立正版授权库。小宇宙 PLUS 会员新增 AI 播客总结（英/中双语）和外语播客同传两项 AI 权益，面向重度用户付费解锁，定价未公开。",
+    "why_matters": "两家国内对标都已动手：喜马拉雅押 AIGC 内容生产，小宇宙押 AI 消费增强（摘要+同传）。喜马拉雅路线与④（已忽略，结构劣势）重叠；小宇宙的 AI 摘要方向与微博⑦-a 重叠——说明⑦-a 留给 AI 节点组是正确节奏，但竞争窗口正在收窄。",
+    "issue_no_origin": 3,
+    "category": "早期信号 · 竞品",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-28",
+    "title": "OpenAI 5 月 7 日发布三款实时音频模型：GPT-Realtime-2（GPT-5 级推理）+ GPT-Realtime-Translate（70 → 13 语种）+ GPT-Realtime-Whisper（流式 STT）",
+    "score_value": 15,
+    "score_max": 22,
+    "score_label": "high",
+    "date": "2026-05-07",
+    "source_label": "来源：OpenAI · 2026-05-07 ·",
+    "source_urls": [
+      {
+        "name": "官方公告",
+        "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/"
+      },
+      {
+        "name": "9to5Mac",
+        "url": "https://9to5mac.com/2026/05/07/openai-has-new-voice-models-that-reason-translate-and-transcribe-as-you-speak/"
+      }
+    ],
+    "summary": "三款模型同步开放 API：(1) <strong>GPT-Realtime-2</strong>，首款带 GPT-5 级推理的实时语音模型，能处理较复杂请求并自然推进对话，定价 $32/1M 音频输入 token、$64/1M 输出；(2) <strong>GPT-Realtime-Translate</strong>，实时翻译 70+ 输入语种到 13 输出语种、保持说话节奏，$0.034/分钟；(3) <strong>GPT-Realtime-Whisper</strong>，流式语音转文字，$0.017/分钟。三者组合，把\"语音 agent\"从 call-and-response 推进到\"听—想—译—转—行动\"一体。",
+    "why_matters": "对微博音频是<strong>基础设施级</strong>新闻，不是某个新方向，而是会反向打通多个已跟进方向：⑥（AI 嘉宾问答）的推理质量上限提高；⑦-a（AI 摘要）可考虑用 Realtime-Whisper 改造流式转录；⑦-b（多语种同传，已 deferred）的技术成本进一步下降，但唤醒条件依然卡在\"站内英文存量\"；⑪（Interactive 追问）的\"边听边追问\"形态在工程上更容易做。本期不单独开方向，作为 4 条活跃方向的统一新输入。",
+    "issue_no_origin": 4,
+    "category": "国外对标 · AI 技术基础设施",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-29",
+    "title": "Spotify 5 月 11 日正式表态欢迎 AI 生成播客入库（配合 5 月 7 日 Personal Podcasts CLI）",
+    "score_value": 12,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": "2026-05-11",
+    "source_label": "来源：Thurrott · 2026-05-11 ·",
+    "source_urls": [
+      {
+        "name": "报道",
+        "url": "https://www.thurrott.com/a-i/335765/spotify-now-welcomes-ai-generated-podcasts-created-with-ai-agents"
+      },
+      {
+        "name": "Podcast News Daily",
+        "url": "https://www.podcastnewsdaily.com/news/spotify-embraces-rise-of-ai-personal-podcast-listening/article_5daf7bd8-6197-4650-b382-312a6559138e.html"
+      }
+    ],
+    "summary": "5 月 7 日 Personal Podcasts CLI 发布之后，5 月 11 日 Spotify 官方进一步明确：欢迎 AI agent 生成的播客内容入库，将其视为\"agentic AI 时代的默认播放器\"。这是平台政策的正式表态，不再仅作为开发者工具，而是<strong>把\"AI 生成播客\"作为合法供给类别</strong>纳入官方分发体系。",
+    "why_matters": "这条本身分数不高，但和 S-30（AI 内容反超人工）合起来构成行业拐点信号——AI 生成音频的\"供给侧\"正式合法化。对微博的含义是：未来 6-12 个月，微博音频不可避免需要处理\"AI 内容如何分发、如何与人工内容共存\"。这是 F 区\"v2 标尺第 12 维候选\"中\"AI 供给治理\"这一维的实证。",
+    "issue_no_origin": 4,
+    "category": "国外对标 · AI 技术基础设施",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-30",
+    "title": "Podcast Index 数据：AI 生成新增 feeds 已超过人工新增（2026-05 月度统计）",
+    "score_value": 10,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：Podnews · 2026-05 ·",
+    "source_urls": [
+      {
+        "name": "报道",
+        "url": "https://podnews.net/update/ai-slop-overtakes-humans"
+      },
+      {
+        "name": "2026 数据分析",
+        "url": "https://www.podcastvideos.com/articles/podcast-index-feed-report-2026-analysis/"
+      }
+    ],
+    "summary": "Podcast Index 2026 年 5 月数据显示，AI 生成的播客 feed 新增数已超过人工新增。典型案例：Inception Point AI 一天内（75 分钟内）批量上线 20 档健康类节目。AI 节目质量参差，部分进入\"批量 spam\"区间，但同时也出现 The Epstein Files 这类有内容深度的 AI 双主播节目（2 月份上线，已破 200 万下载）。",
+    "why_matters": "这条和上期 S-26 (39% AI feeds) 是同一信号的延续，但读数从 39% 升到\"反超\"——意味着<strong>\"内容洪流\"已经到来，不是 6 个月后才到来</strong>。对微博而言，是否需要做\"内容来源识别 + 用户可选 AI 内容曝光权重\"作为治理基建，是一个值得在 v2 中评估的方向。本期不开新方向，但记入 F 区第 12 维候选。",
+    "issue_no_origin": 4,
+    "category": "国外对标 · AI 技术基础设施",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-31",
+    "title": "ElevenLabs 5 月 7 日开放 on-premise + on-device 部署模式 + 接入 Gemini 3.1 / Qwen 3.5 系列 LLM",
+    "score_value": 9,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": "2026-05-07",
+    "source_label": "来源：ElevenLabs · 2026-05-07 ·",
+    "source_urls": [
+      {
+        "name": "Blog",
+        "url": "https://elevenlabs.io/blog"
+      },
+      {
+        "name": "Release Bot",
+        "url": "https://releasebot.io/updates/eleven-labs"
+      }
+    ],
+    "summary": "ElevenLabs 5 月 7 日同步开放 on-premise 和 on-device 部署，TTS/STT/Agent 三件套都可以脱离公网运行；同时在 Agent 平台新增可选 LLM 供应商：gemini-3.1-pro-preview、qwen35-35b-a3b、qwen35-397b-a17b。配合 turn-taking 专有模型（处理人类停顿/打断/犹豫）。",
+    "why_matters": "对微博的含义有两条：(1) <strong>站内合规风险降低</strong>——如果未来某天⑥/⑪要做语音 agent，可以走\"完全私有部署\"路线避数据合规；(2) Qwen 进 ElevenLabs 候选 LLM 列表，意味着<strong>\"国产 LLM × 国际 TTS\"的组合工程化更顺手</strong>，工时区间应当下调一档。",
+    "issue_no_origin": 4,
+    "category": "AI 技术 · 部署模式 + 中文合规",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-32",
+    "title": "工信部等部门 5 月 10 日联合发布《人工智能终端智能化分级》系列国家标准",
+    "score_value": 7,
+    "score_max": 22,
+    "score_label": "low",
+    "date": "2026-05-10",
+    "source_label": "来源：晨启 Tech / AI 日报 · 2026-05-10 ·",
+    "source_urls": [
+      {
+        "name": "AI 日报",
+        "url": "https://blog.aichanning.cn/ai-daily-2026-05-10"
+      }
+    ],
+    "summary": "中国工信部联合多部门 5 月 10 日发布《人工智能终端智能化分级》系列国家标准，正式定义 AI 终端的智能化等级与合规要求。目前条文未公开全文，行业普遍关注：是否涉及对 AI 生成内容来源标识、用户告知、数据本地化的强制要求。",
+    "why_matters": "单独看分数不高，但和 S-29 / S-30 合起来构成<strong>\"中国监管节奏正在跟上 AI 内容供给爆发\"</strong>的信号。对微博这种公众平台，国家标准侧的早期信号值得在内部合规组同步预警，不需要立项动作，但需要被动监测。",
+    "issue_no_origin": 4,
+    "category": "AI 技术 · 部署模式 + 中文合规",
+    "tags": [],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-33",
+    "title": "YouTube AI 创作工具五件套：音频→视频自动生成 + AI 短片建议 + Ask Studio chatbot + 自动配音唇形对齐 + Lyria 2 / Veo 3 Fast",
+    "score_value": 11,
+    "score_max": 22,
+    "score_label": "mid",
+    "date": null,
+    "source_label": "来源：SocialBee 2026-05 月度更新 ·",
+    "source_urls": [
+      {
+        "name": "更新汇总",
+        "url": "https://socialbee.com/blog/youtube-updates/"
+      },
+      {
+        "name": "PodcastVideos",
+        "url": "https://www.podcastvideos.com/articles/youtube-2026-updates-ai-live-streaming-monetization/"
+      }
+    ],
+    "summary": "YouTube 5 月起密集推工具：(1) 音频内容自动生成可定制视频（静态图播客上传\"前 90 秒内丢失 90–95% 观众\"的数据已被 YouTube 内部确认）；(2) AI 自动建议短片（视频播客创作者，美国先行）；(3) Ask Studio chatbot 提供数据洞察和创作建议；(4) 自动配音 + 唇形对齐，翻译视频可视觉上匹配嘴型；(5) Lyria 2 把演讲转歌曲、Veo 3 Fast 给 Shorts 免费用。",
+    "why_matters": "对⑧（音频高光→视频）形成<strong>第三次外部佐证</strong>（已有 S-16 YouTube auto video + S-19 58% 切片数据 + S-26 Rebel Audio + 本条）。但<strong>\"90 秒丢 90–95%\"</strong>这个数字是新材料，它把\"静态图音频→视频\"的优先级从\"加值项\"提到\"几乎必做项\"。这是本期对⑧最重要的新输入，本身分数 11/22 不算高，但行业风向信号强。",
+    "issue_no_origin": 4,
+    "category": "国外对标 · 创作工具",
+    "tags": [],
+    "related_direction_ids": []
+  }
+]

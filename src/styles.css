@@ -1,0 +1,336 @@
+/* ============================================================
+   全局 tokens · 与 design-mockups/assets/tokens.css 对齐
+   color / spacing / radius / typography
+   ============================================================ */
+:root {
+  --bg: #fafaf7;
+  --fg: #1a1a1a;
+  --muted: #6b6b6b;
+  --line: #e5e5e0;
+  --card: #ffffff;
+  --card-soft: #f6f5f1;
+  --accent: #d72631;
+  --accent-soft: #fdecee;
+  --high: #1e7a3a;
+  --high-soft: #e6f4ec;
+  --mid: #b8761a;
+  --mid-soft: #fdf3e3;
+  --low: #6b6b6b;
+  --low-soft: #f0f0ed;
+  --tag-bg: #f3f3f0;
+  --info: #1f5fb5;
+  --info-soft: #e6effa;
+  --warn: #7c3e00;
+  --warn-soft: #fff4e6;
+  --purple: #7042b8;
+  --purple-soft: #efe7fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161614;
+    --fg: #ececec;
+    --muted: #9a9a9a;
+    --line: #2c2c2a;
+    --card: #1e1e1c;
+    --card-soft: #232321;
+    --accent: #ff5a66;
+    --accent-soft: #3a1d1f;
+    --high: #5fcb84;
+    --high-soft: #1c2e22;
+    --mid: #e2a85b;
+    --mid-soft: #2e2618;
+    --low: #9a9a9a;
+    --low-soft: #25252350;
+    --tag-bg: #2a2a28;
+    --info: #6ea8e8;
+    --info-soft: #1a2638;
+    --warn: #e2a85b;
+    --warn-soft: #2e2100;
+    --purple: #b18bea;
+    --purple-soft: #2a1d3e;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue",
+               "Microsoft YaHei", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.55;
+  font-size: 14.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: inherit; }
+
+/* ============================================================
+   .wrap · 每个 page 的容器
+   - 默认值（fallback for pages 尚未翻新前）：1280 / 24-32 padding
+   - .wrap.pN 会覆盖
+   ============================================================ */
+.wrap {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 32px 80px;
+}
+.wrap.p2,
+.wrap.p3,
+.wrap.p4,
+.wrap.p5,
+.wrap.p6 {
+  /* 这些类的 max-width / padding 由 page 组件覆盖 */
+  max-width: none;
+  padding: 0;
+}
+
+/* ============================================================
+   顶部应用栏 · 全局 (放在 App.vue 的 sticky header 里)
+   ============================================================ */
+.app-top {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(250, 250, 247, 0.92);
+  backdrop-filter: saturate(140%) blur(8px);
+  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+@media (prefers-color-scheme: dark) {
+  .app-top { background: rgba(22, 22, 20, 0.9); }
+}
+
+.app-top-inner {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.app-top .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--fg);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.005em;
+}
+.app-top .brand .dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.app-top .tabs {
+  display: flex;
+  gap: 22px;
+  flex: 1;
+}
+.app-top .tabs a {
+  position: relative;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.12s, border-color 0.12s;
+}
+.app-top .tabs a:hover { color: var(--fg); }
+.app-top .tabs a.active,
+.app-top .tabs a.router-link-active {
+  color: var(--fg);
+  border-bottom-color: var(--accent);
+}
+
+.app-top .right-slot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12.5px;
+  color: var(--muted);
+  font-family: SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* 编辑模式徽章 + 登录按钮 */
+.app-top .btn-ghost {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.app-top .btn-ghost:hover {
+  color: var(--fg);
+  border-color: var(--fg);
+}
+.app-top .badge-editor {
+  font-size: 11.5px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--high-soft);
+  color: var(--high);
+  cursor: pointer;
+  font-weight: 700;
+  font-family: SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.02em;
+}
+
+/* ============================================================
+   全局 status chip · 6 种状态（P3 / P4 / P5 复用）
+   ============================================================ */
+.st {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  min-width: 56px;
+  text-align: center;
+  line-height: 1.4;
+}
+.st-accept  { background: var(--high-soft);   color: var(--high);   }
+.st-track   { background: var(--info-soft);   color: var(--info);   }
+.st-partial { background: var(--mid-soft);    color: var(--mid);    }
+.st-hold    { background: var(--purple-soft); color: var(--purple); }
+.st-ignore  { background: var(--low-soft);    color: var(--low);    }
+.st-pending { background: var(--warn-soft);   color: var(--warn);   }
+
+/* ============================================================
+   loading / empty （工具页通用）
+   ============================================================ */
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--muted);
+  background: var(--low-soft);
+  border-radius: 12px;
+  border: 1px dashed var(--line);
+}
+.empty-state .es-headline {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fg);
+  margin-bottom: 8px;
+}
+
+/* ============================================================
+   通用按钮（PatModal / 表单使用）
+   ============================================================ */
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid var(--accent);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.btn-primary:hover { filter: brightness(1.05); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--fg);
+  border: 1px solid var(--line);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-family: inherit;
+}
+.btn-secondary:hover { border-color: var(--fg); }
+
+.btn-danger {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-family: inherit;
+}
+
+/* ============================================================
+   modal (PatModal 复用)
+   ============================================================ */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 480px;
+  width: 100%;
+  max-height: 90vh;
+  overflow: auto;
+  border: 1px solid var(--line);
+}
+.modal h3 {
+  margin: 0 0 16px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.modal-row {
+  margin-bottom: 14px;
+}
+.modal-row label {
+  display: block;
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.modal-row input,
+.modal-row textarea,
+.modal-row select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 14px;
+  font-family: inherit;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}

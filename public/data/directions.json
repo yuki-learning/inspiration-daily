@@ -1,0 +1,555 @@
+[
+  {
+    "id": "①",
+    "id_sort_key": 1,
+    "name": "信息流语音化（评论可发声）",
+    "status": "采纳",
+    "owning_team": null,
+    "score": {
+      "total": 10,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P0",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-04-27",
+    "first_appeared_issue_no": 1,
+    "form_description": "评论可发声 + 语音问一问。把『以图文为主的信息流』扩展到语音输入/输出，作为整体语音化战略的第一步。",
+    "weibo_advantage": "信息流即微博本身，社交关系直达。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "首推（v1 标尺 10/10），用户反馈『已在做』，已立项移交。不再在日报推。"
+      }
+    ],
+    "wakeup_conditions": [],
+    "wakeup_meta": null,
+    "related_direction_ids": [],
+    "related_signal_ids": ["S-01"]
+  },
+  {
+    "id": "②",
+    "id_sort_key": 2,
+    "name": "热搜→AI 双主播播客",
+    "status": "采纳",
+    "owning_team": null,
+    "score": {
+      "total": 9,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P0",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 1,
+    "form_description": "把热搜话题用 NotebookLM Audio Overview 类似的方案做成 AI 双主播社交播客，自动生成、自动推送。",
+    "weibo_advantage": "热搜是微博独家入口。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "首推（v1 标尺 9/10），用户反馈『已在做』，已立项移交。不再在日报推。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "旁参考：TikTok Radio × iHeartMedia 模型（28 台广播站 + 创作者播客网络），『图文/短视频平台 × 音频网络』耦合模型在国外验证，对②供给侧补强可能有参考。已记入持续观察。"
+      }
+    ],
+    "wakeup_conditions": [],
+    "wakeup_meta": null,
+    "related_direction_ids": [],
+    "related_signal_ids": ["S-07"]
+  },
+  {
+    "id": "③",
+    "id_sort_key": 3,
+    "name": "播客 Timed Links",
+    "status": "忽略",
+    "owning_team": null,
+    "score": {
+      "total": 9,
+      "max": 10,
+      "ruler_version": "v1",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P0",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 1,
+    "form_description": "嘉宾提到某书/股票/链接，自动浮起 timed link。参考 Apple Podcasts 实现。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "首推（v1 标尺 9/10），看似高分。"
+      },
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "否决：v1.5 维度⑧（时序匹配）扣分——播客生成需 30+ 分钟，热搜是分钟级，时效不对齐。"
+      },
+      {
+        "date": "2026-04-29",
+        "issue_no": 2,
+        "note": "反向解：⑨（用历史音频喂当下热搜，规避实时生成问题）。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "注：Apple iOS 26.2 的 auto chapters + Timed Links 是『播客内部跳转 + 引用链接』形态（异步生成，非实时新闻），与原③的『实时新闻接历史音频』不同物种，原否决理由依然成立。Apple 的 fallback 设计纳入⑦-a 实施细则。"
+      }
+    ],
+    "wakeup_conditions": [],
+    "wakeup_meta": null,
+    "related_direction_ids": ["⑨"],
+    "related_signal_ids": ["S-06"]
+  },
+  {
+    "id": "④",
+    "id_sort_key": 4,
+    "name": "经典 IP 音色 AIGC",
+    "status": "忽略",
+    "owning_team": null,
+    "score": {
+      "total": 9,
+      "max": 10,
+      "ruler_version": "v1",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P1",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-04-27",
+    "first_appeared_issue_no": 1,
+    "form_description": "用 AI 音色克隆经典 IP / 大 V，做 AIGC 专辑（参考喜马拉雅单田芳）。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "首推（v1 标尺 9/10）。"
+      },
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "否决：v1.5 维度⑦（结构优势）-2 分。喜马拉雅的 IP 库 + 声音库 + 多年版权积累 + 用户对『经典 IP 在喜马』的认知都更强，硬碰不划算。"
+      }
+    ],
+    "wakeup_conditions": [],
+    "wakeup_meta": null,
+    "related_direction_ids": [],
+    "related_signal_ids": ["S-03", "S-09"]
+  },
+  {
+    "id": "⑤",
+    "id_sort_key": 5,
+    "name": "提示词式播客发现",
+    "status": "跟进",
+    "owning_team": null,
+    "score": {
+      "total": 7,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "S",
+    "priority": "P1",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 1,
+    "form_description": "用户输入一句话提示词，AI 生成专属播客发现列表，落点是音频聚合页。需要补『社交维度』的差异化方案。",
+    "weibo_advantage": "社交互动数据 + 关注关系，可生成社交化推荐理由。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "首推：跟进，落点是『音频聚合页』。需要补『社交维度』的差异化方案。"
+      },
+      {
+        "date": "2026-04-29",
+        "issue_no": 2,
+        "note": "新输入（S-14 Spotify Q1 Taste Profile）：算法可视化 + 用户反向调整推荐画像。"
+      },
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "新输入（S-22 Spotify Prompted Playlist for Podcasts 正式上线细节）：每集推荐附『入选理由』是关键 UI 设计。建议把推荐理由作为⑤方案迭代的 UI 标配。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "新输入（S-33 YouTube Ask Studio chatbot）：把推荐理由从『静态文案』升级为『可对话的入口』——用户可对『为什么推这个』做追问，AI 用 RAG 解释。这是⑤区别于 Spotify Prompted Playlist 的差异化路径建议。"
+      }
+    ],
+    "wakeup_conditions": [],
+    "wakeup_meta": null,
+    "related_direction_ids": [],
+    "related_signal_ids": ["S-05", "S-14", "S-22", "S-33"]
+  },
+  {
+    "id": "⑥",
+    "id_sort_key": 6,
+    "name": "实时 AI 嘉宾对话（轻量版）",
+    "status": "跟进",
+    "owning_team": null,
+    "score": {
+      "total": 8,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "L",
+    "priority": "P1",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 1,
+    "form_description": "v1.5 形态：品类突击（历史/科技/商业访谈）+ 卡片问答 + RAG 引用原话 + 嘉宾音色 TTS，AI 不生成新观点。",
+    "external_note": "⑥ 进度由另一 chat 维护（参考 `AI嘉宾问答卡片_v2.0.md`），本台账只在它有重大进展时同步。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "首推（v1 标尺 8/10）：实时端到端语音模型集中爆发驱动。"
+      },
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "反馈两个否决理由：作者授权难 + 用户主动行为依赖重。"
+      },
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "→ v1.5：品类突击（历史 / 科技 / 商业访谈）+ 形态降级（卡片问答 + RAG 引用原话 + 嘉宾音色 TTS，AI 不生成新观点）。"
+      },
+      {
+        "date": "2026-04-29",
+        "issue_no": 2,
+        "note": "新输入（S-15 Amazon Join the Chat + S-17 OpenAI Realtime mini）：被动播报 + 主动打断混合形态可行；成本降低。"
+      },
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "新输入（S-23 NotebookLM Interactive Audio Mode + S-24 字节 Seeduplex 全双工）：Google 和字节双重验证『随时打断』形态。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "新输入（S-28 GPT-Realtime-2 GPT-5 级推理 + S-31 ElevenLabs on-premise 部署 + Qwen 接入）：(a) AI 嘉宾在认知密度高领域的内容深度上限提升，可重新评估『商业/历史/科技访谈』突击品类；(b) on-premise 部署直接缓解作者授权 + 数据合规两条担忧。建议在另一 chat 的 ⑥ v2 讨论中纳入。"
+      }
+    ],
+    "wakeup_conditions": [],
+    "wakeup_meta": null,
+    "related_direction_ids": ["⑪"],
+    "related_signal_ids": ["S-08", "S-15", "S-17", "S-23", "S-24", "S-28", "S-31"]
+  },
+  {
+    "id": "⑦-a",
+    "id_sort_key": 71,
+    "name": "AI 摘要扩展 AI 节点",
+    "status": "部分采纳",
+    "owning_team": "AI 节点组",
+    "score": {
+      "total": 8,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "S",
+    "priority": "P0",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 1,
+    "form_description": "摘要单独做，扩进 AI 节点功能。吸收 Apple iOS 26.2『创作者优先 + AI 兜底』fallback 设计 + 评估 Whisper 流式接入。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "部分采纳：摘要单独做，扩进 AI 节点功能，移交 AI 节点组。"
+      },
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "注：NotebookLM Interactive Audio Mode（S-23）衍生出⑪，属于⑦-a 的形态升级。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "新输入（S-28 OpenAI Realtime-Whisper 流式 STT $0.017/分钟 + Apple iOS 26.2 auto chapters fallback 设计）：(a) ASR 价格再下一档，存量 + 增量全量转录的成本压力进一步降低；(b) Apple 的『创作者优先 + AI 兜底』fallback 模式（只在缺位时自动生成章节，且贴 `Automatically created` 标签）建议作为⑦-a 实施细则，避免触碰作者合规扣分维度。"
+      }
+    ],
+    "wakeup_conditions": [],
+    "wakeup_meta": null,
+    "related_direction_ids": ["⑪"],
+    "related_signal_ids": ["S-04", "S-23", "S-28"]
+  },
+  {
+    "id": "⑦-b",
+    "id_sort_key": 72,
+    "name": "多语种同传",
+    "status": "保留",
+    "owning_team": null,
+    "score": {
+      "total": null,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P2",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 1,
+    "form_description": "对外语播客做实时/异步同传，免费版基础能力。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "deferred：站内英文音频存量未到起飞阈值，做了也没人用。"
+      },
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "扫描唤醒池：条件未触发（外部无法获取站内数据，需内部核查）。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "旁参考：NotebookLM 50+ 语言 Audio Overview 扩展 + OpenAI GPT-Realtime-Translate（70 → 13 语种）+ ElevenLabs Qwen LLM 接入——技术供给侧 ready 程度持续提高，但唤醒条件依然卡在站内英文供给侧。本期不变化。"
+      }
+    ],
+    "wakeup_conditions": [
+      "站内英文音频存量过 5% 总播放时长"
+    ],
+    "wakeup_meta": {
+      "monitor_freq": "季度",
+      "data_sources": "站内供给数据团队季度统计",
+      "last_scanned": "2026-05-18",
+      "scan_result": "未触发（技术侧 ready；供给侧无变化）"
+    },
+    "related_direction_ids": [],
+    "related_signal_ids": ["S-04", "S-07", "S-28"]
+  },
+  {
+    "id": "⑧",
+    "id_sort_key": 8,
+    "name": "音频高光→视频/图文（高光剪辑）",
+    "status": "保留",
+    "owning_team": null,
+    "score": {
+      "total": 8,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P1",
+    "first_appeared": "2026-04-27",
+    "last_updated": "2026-05-18",
+    "first_appeared_issue_no": 1,
+    "form_description": "高光识别（情绪 + 评论热度）+ 视觉模板设计 + 与剪映 / 视频号对接。微博应押短切片+高光剪辑，不做完整视频版。",
+    "archive_entries": [
+      {
+        "date": "2026-04-27",
+        "issue_no": 1,
+        "note": "跟进：高光识别（情绪 + 评论热度）+ 视觉模板设计 + 与剪映 / 视频号对接。"
+      },
+      {
+        "date": "2026-04-29",
+        "issue_no": 2,
+        "note": "新输入（S-16 YouTube auto video + S-19 行业数据 58%）：微博应押短切片+高光剪辑，不做完整视频版。"
+      },
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "新输入（S-26 Rebel Audio $3.8M 出 stealth）：AI 短视频切片生产成本归零。建议评估立项。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "新输入（S-33 YouTube AI 创作工具五件套 + 90 秒丢 90–95% 硬数据 + S-30 AI 内容洪流）：(a) 『静态图音频 → 视频前 90 秒丢 90–95% 观众』YouTube 内部数据为⑧的『必做性』加了硬证据；(b) Veo 3 Fast + Lyria 2 免费给 Shorts 创作者，工具侧从付费 API 变成大平台免费基建，自研窗口期进一步收窄。建议本月内（5 月底前）开⑧评估闭门会。"
+      },
+      {
+        "date": "2026-05-18",
+        "issue_no": 5,
+        "note": "由\"跟进 + 建议立项\" → \"保留\"。PM 反馈评估闭门会推迟到下季度，上线以来第一次\"高跟进度方向被主动推迟\"。把上期为⑧累积的 5 条加速理由整体转写为 4 条唤醒条件入唤醒池。"
+      }
+    ],
+    "wakeup_conditions": [
+      "下季度评估闭门会启动并出结论（PM 排期触发）",
+      "中文同类产品（小宇宙 / 喜马拉雅 / B 站）上线\"音频高光→视频\"产品级功能（非工具级），且半年内用户量级 ≥ 千万",
+      "视频号 / 微博话题广场主动提出对接需求（内部驱动）",
+      "YouTube / Spotify 公开披露\"音频→视频转化\"留存或商业化数据（外部硬数据进一步明确）"
+    ],
+    "wakeup_meta": {
+      "monitor_freq": "双周",
+      "data_sources": "PM 排期 / 中文同类竞品监测 / 视频号 BD 反馈 / YouTube&Spotify 财报与官方发布",
+      "last_scanned": "2026-05-18",
+      "scan_result": "新入池"
+    },
+    "related_direction_ids": [],
+    "related_signal_ids": ["S-02", "S-10", "S-16", "S-19", "S-26", "S-30", "S-33"]
+  },
+  {
+    "id": "⑨",
+    "id_sort_key": 9,
+    "name": "历史播客→当下新闻 45 秒接入",
+    "status": "保留",
+    "owning_team": null,
+    "score": {
+      "total": 15,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P0",
+    "first_appeared": "2026-04-29",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 2,
+    "form_description": "热搜 / 新闻信息流条目下方挂『播客里怎么聊过这个』——从历史音频中检索 45 秒切片自动接入。",
+    "weibo_advantage": "微博热搜 + 信息流 + 播客是独家组合。",
+    "archive_entries": [
+      {
+        "date": "2026-04-29",
+        "issue_no": 2,
+        "note": "首推：v1.5 评分 15/22，P0，Effort M。触发信号：S-13 Particle Podcast Clips + S-19 短切片发现数据。"
+      },
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "新佐证（S-21 Spotify Personal Podcasts）：行业验证『AI 音频+个性化数据』方向成立。"
+      },
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "协同关系：⑨ 和 ⑩ 可共用同一套 vector embedding 索引——⑨ 是『新闻触发拉音频』，⑩ 是『日播触发推音频』。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "由『待反馈』→『保留』，触发原因：用户表态。配套唤醒条件入唤醒池。"
+      }
+    ],
+    "wakeup_conditions": [
+      "热搜 / 信息流团队完成『内容卡片下方挂播客切片』基础组件（无论是否给 AI 用）",
+      "站内播客 ASR + vector embedding 索引覆盖度过 60% 总播放时长（与 ⑩ 共用底层）",
+      "任一中文同类产品（小宇宙 / 喜马拉雅 / B 站）上线类似『新闻条目下挂播客切片』功能",
+      "⑩ 状态变更为采纳——⑨ 作为⑩『高光功能延伸』一并复活"
+    ],
+    "wakeup_meta": {
+      "monitor_freq": "双周",
+      "data_sources": "内部产品周报 / 竞品发布会 / 媒体跟踪",
+      "last_scanned": "2026-05-18",
+      "scan_result": "未触发"
+    },
+    "related_direction_ids": ["③", "⑩"],
+    "related_signal_ids": ["S-13", "S-19", "S-21"]
+  },
+  {
+    "id": "⑩",
+    "id_sort_key": 10,
+    "name": "社交图谱日播（个性化每日私人播报）",
+    "status": "保留",
+    "owning_team": null,
+    "score": {
+      "total": 21,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P0",
+    "first_appeared": "2026-05-08",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 3,
+    "form_description": "基于用户关注博主×热搜互动×话题偏好，每天 AI 生成 5–10 分钟私人专属播报，早 7–8 点自动推送到『稍后听』列表。",
+    "weibo_advantage": "社交关系链（Spotify 没有）。",
+    "archive_entries": [
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "首推：v1.5 评分 21/22，P0，Effort M（基础版 S ≤3 周）。触发信号：S-21（Spotify Personal Podcasts，5 月 7 日发布）。"
+      },
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "分层：基础版（热搜播报+关注者精华+TTS，≤3 周）→ 进阶版（接 ⑨ embedding 检索，M 4-8 周）。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "由『待反馈』→『保留』，触发原因：用户表态。配套唤醒条件入唤醒池。注：21/22 高分依然进保留池，是 F 区标尺自校的重要数据点——v1.5 漏掉了『组织准备度 / 关键数据前置 / 决策窗口紧迫度』这类维度。"
+      }
+    ],
+    "wakeup_conditions": [
+      "关注关系 / 热搜互动 / 话题偏好三类数据可被音频侧调用（数据接入侧 SLA 明确）",
+      "一次用户调研：对『早间 5–10 分钟私人日播』形态的明确接受度 ≥30%",
+      "一个相邻部门（短信通知 / 用户成长 / 早安微博）实验『早 7–8 点定时推送』，留存数据可读",
+      "Spotify Personal Podcasts 6 个月内披露用户 DAU / 留存数据，且数据正向（≥10% MAU 在用）"
+    ],
+    "wakeup_meta": {
+      "monitor_freq": "双周",
+      "data_sources": "用户研究部 / 推送平台 / Spotify Q2-Q3 财报",
+      "last_scanned": "2026-05-18",
+      "scan_result": "未触发"
+    },
+    "related_direction_ids": ["⑨"],
+    "related_signal_ids": ["S-21"]
+  },
+  {
+    "id": "⑪",
+    "id_sort_key": 11,
+    "name": "播客 Interactive AI 追问（打断追问 RAG 回答）",
+    "status": "保留",
+    "owning_team": null,
+    "score": {
+      "total": 18,
+      "max": 22,
+      "ruler_version": "v1.5",
+      "breakdown": null
+    },
+    "effort": "M",
+    "priority": "P1",
+    "first_appeared": "2026-05-08",
+    "last_updated": "2026-05-12",
+    "first_appeared_issue_no": 3,
+    "form_description": "听播客时随时点击『追问』，用语音或文字提问，AI 用 RAG 引用本集 ASR 转录内容回答，回答后无缝续播。",
+    "archive_entries": [
+      {
+        "date": "2026-05-08",
+        "issue_no": 3,
+        "note": "首推：v1.5 评分 18/22，P1，Effort M（3–6 周，基于 AI 节点改造）。触发信号：S-23（NotebookLM Studio Factory + Interactive Audio Mode）+ S-24（Seeduplex 全双工）。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "由『待反馈』→『保留』，触发原因：用户表态。配套唤醒条件入唤醒池。"
+      },
+      {
+        "date": "2026-05-12",
+        "issue_no": 4,
+        "note": "新输入（S-28 GPT-Realtime-2 + Sesame 开源 1B + Cartesia 40ms）：语音技术供给侧持续走强，已纳入唤醒条件二级触发器。"
+      }
+    ],
+    "wakeup_conditions": [
+      "⑦-a AI 摘要扩展 AI 节点 进入『已上线 + 有跳听粒度的基础数据』阶段",
+      "NotebookLM Interactive Audio Mode 中文版上线（Google 路径），或字节 Seeduplex 在播客客户端落地（国内路径）",
+      "站内 ASR 转录覆盖度过 80% 单集",
+      "AI 节点组明确表态：本方向不在其下半年路线图，可独立立项"
+    ],
+    "wakeup_meta": {
+      "monitor_freq": "双周",
+      "data_sources": "AI 节点组路线图 / Google 中国区路线 / 字节 Seed 月报",
+      "last_scanned": "2026-05-18",
+      "scan_result": "未触发"
+    },
+    "related_direction_ids": ["⑥", "⑦-a"],
+    "related_signal_ids": ["S-23", "S-24", "S-28"]
+  }
+]
