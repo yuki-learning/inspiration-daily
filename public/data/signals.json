@@ -962,16 +962,16 @@
     "source_label": "来源:Spotify newsroom + TechCrunch · 2026-05-21",
     "source_urls": [
       {
-        "name": "Spotify newsroom · Investor Day 2026 · Podcast Features",
+        "name": "Spotify Newsroom · Investor Day",
         "url": "https://newsroom.spotify.com/2026-05-21/investor-day-podcast-features-updates/"
       },
       {
-        "name": "TechCrunch · Spotify adds AI-powered Q&A and briefing generation features to podcasts",
-        "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/"
+        "name": "Spotify · Podcast Clips",
+        "url": "https://newsroom.spotify.com/2026-05-27/podcast-clips-save-share-moments/"
       }
     ],
-    "summary": "Spotify Investor Day 2026（5/21）发布 Personal Podcasts App 内直接生成功能。用户在 Spotify App 内写 prompt，即可生成个性化私人音频节目：<ul><li>支持<strong>定时每日 / 每周自动生成</strong></li><li>可上传 PDF / 链接 / 文本作为参考内容</li><li>可选择 AI 声音</li><li>节目保存在个人私人库，仅自己可见</li><li>结合用户的 Spotify 品味档案（taste profile）+ 用户 prompt 生成</li></ul>同日还发布 <strong>Studio by Spotify Labs</strong>——独立桌面应用，可连接邮件 / 日历 / 个人服务，生成围绕用户生活的个性化音频。美区 Premium 用户 2026-06 起逐步推出，初始有月度用量上限。",
-    "why_matters": "⑩（社交图谱日播，保留池，21/22）的<strong>直接竞品落地形态</strong>。Spotify 选择「<strong>用户主动 prompt + 收听品味数据</strong>（个人品味驱动）」路径；微博 ⑩ 走「<strong>社交图谱 + 完全被动推送</strong>（社交数据驱动）」路径。微博的差异化筹码：Spotify 没有社交图谱，微博独有「follow 关系 + 话题偏好 + 热搜实时性」。Spotify 先行验证了产品形态的市场接受度，<strong>降低了微博 ⑩ 的用户教育成本，也缩短了先发窗口</strong>。",
+    "summary": "<strong>Ask Spotify（5/21）</strong>：Premium 用户边听播客边提问 → AI 实时回答，解释概念、推荐相关节目、追问细节。US/瑞典/爱尔兰即日可用。<strong>= ⑪ 的精确外部实现。</strong><br><br>\n        <strong>Podcast Clips（5/27）</strong>：播放页点剪刀图标截取片段，可保存/分享。分享菜单支持整集、章节、时间戳或片段。<strong>片段化分发的基础组件。</strong><br><br>\n        <strong>Personal Podcasts 应用内化</strong>：从 CLI 升级为应用内原生体验，下月向美国 Premium 开放。输入 prompt → 基于世界知识 + Taste Profile 生成私人播客，可定时、可附 PDF/链接、可选音色。月免费额度 + 付费续。<br><br>\n        <strong>Memberships</strong>：创作者直接订阅关系，拥有数据，可跨平台导入导出。<strong>Creator Sponsorships</strong>：视频动态广告排期上线。",
+    "why_matters": "<strong>对微博：</strong>Ask Spotify = ⑪ 精确外部实现（Spotify+YouTube 双平台已上线播客问答，中文窗口收窄）。Clips = ⑧ 的基础组件参照（片段化分发）。Personal Podcasts = ⑩ 形态验证（AI 生成→定时推送→私人库可产品化）。",
     "issue_no_origin": 7,
     "category": "国外对标 · 产品动态",
     "tags": [
@@ -984,6 +984,15 @@
     "related_direction_ids": [
       "⑩",
       "⑤"
+    ],
+    "platform": "spotify",
+    "platform_label": "Spotify",
+    "platform_date": "5/21 Investor Day + 5/27",
+    "feature_headline": "Ask Spotify 播客问答 + Podcast Clips + Personal Podcasts 应用内化",
+    "metrics": [
+      "5 亿+ 视频播客用户（YoY +50%）",
+      "播客连续两年盈利",
+      "Prompted Playlists 50%+ 发现新节目"
     ]
   },
   {
@@ -1051,12 +1060,12 @@
     "source_label": "TechCrunch · 2026-05-28",
     "source_urls": [
       {
-        "name": "TechCrunch · YouTube adds new podcast features including an AI recommendation tool and auto speed",
+        "name": "TechCrunch",
         "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/"
       }
     ],
-    "summary": "YouTube Premium 在 5/28 同时推出播客三件套：Auto Speed（系统自动调节播放速度，被动优化体验）、Ask Music for Podcasts（播放中直接向 AI 提问节目内容）、On-the-go Mode（移动场景优化）。MAU 破 10 亿，4 月 Premium 用户 8 亿小时收听。",
-    "why_matters": "Ask Music for Podcasts 是 ⑤「音频问答发现」的第二个外部参照系（继 Spotify Prompted Playlists 之后）。Auto Speed 验证「被动 > 主动」的产品哲学。10 亿 MAU 说明视频播客已非实验品，是行业共识。与 Spotify Ask Spotify 一道构成双平台对 ⑪ 的前哨信号。",
+    "summary": "<strong>Auto Speed</strong>：根据说话速度和内容密度自动调整播放倍速，主播说话慢时加速，内容密集时减速。<strong>被动消费体验创新。</strong><br><br>\n        <strong>Ask Music for Podcasts</strong>：AI 推荐扩展到播客，按心情/类型/已喜欢的节目推荐。= ⑤ 的 YouTube 版本。<br><br>\n        <strong>On-the-go Mode</strong>：音频友好布局 + 简化控制（快进/快退/跳集），专为跑步/通勤设计。Android 先行。",
+    "why_matters": "<strong>对微博：</strong>Auto Speed 完美契合 PM「偏好被动>主动」，系统代替用户做决策。10 亿 MAU = 视频播客已非实验品。Ask Music = ⑤ 第二个外部参照系。",
     "issue_no_origin": 7,
     "category": "国外对标 · YouTube",
     "tags": [
@@ -1069,6 +1078,14 @@
     "related_direction_ids": [
       "⑤",
       "⑧"
+    ],
+    "platform": "youtube",
+    "platform_label": "YouTube",
+    "platform_date": "5/28",
+    "feature_headline": "Premium 播客三件套 · Auto Speed + Ask Music for Podcasts + On-the-go Mode",
+    "metrics": [
+      "MAU 破 10 亿",
+      "4 月 Premium 用户 8 亿小时"
     ]
   },
   {
@@ -1081,16 +1098,16 @@
     "source_label": "TechCrunch + About Amazon · 2026-05-18",
     "source_urls": [
       {
-        "name": "TechCrunch · Amazon new Alexa-powered feature can generate podcast episodes",
+        "name": "TechCrunch",
         "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"
       },
       {
-        "name": "About Amazon · Alexa Podcasts AI-generated audio episodes",
+        "name": "About Amazon",
         "url": "https://www.aboutamazon.com/news/devices/alexa-podcasts-ai-generated-audio-episodes"
       }
     ],
-    "summary": "Amazon 发布 Alexa Podcasts，用户通过 prompt 向 Alexa 请求，AI 实时生成完整播客剧集，整合 200+ 新闻合作伙伴内容，Prime 会员免费。走「用户主动 prompt → 按需生成」路径。",
-    "why_matters": "与 ⑩「社交图谱日播」形态最接近但路径不同：Amazon 走主动 prompt，微博 ⑩ 走社交图谱驱动→被动推送。三巨头（Spotify + YouTube + Amazon）同期验证「AI 个性化日播」形态可行性，大幅降低 ⑩ 的用户教育成本。200+ 新闻合作伙伴的版权模式值得关注。",
+    "summary": "说个话题 → Alexa+ 调研+生成大纲 → 调整时长/语调/焦点 → <strong>双 AI 主播对话播报</strong>。Echo Show + App 推送。Prime 免费（非 Prime $19.99/月）。<br><br>\n        <strong>内容可信度</strong>：与 AP、Reuters、WaPo、Time、Forbes、Condé Nast 等 200+ 新闻合作伙伴建立授权。还在探索定制新闻简报和基于用户文档的私人音频。",
+    "why_matters": "<strong>对微博：</strong>与 ⑩ 形态最接近但路径不同：Amazon 走「用户主动 prompt」，微博 ⑩ 走「社交图谱驱动→被动推送」。微博有社交关系链的结构优势。200+ 新闻合作的版权模式值得关注。",
     "issue_no_origin": 7,
     "category": "国外对标 · Amazon",
     "tags": [
@@ -1103,6 +1120,14 @@
     "related_direction_ids": [
       "⑩",
       "②"
+    ],
+    "platform": "amazon",
+    "platform_label": "Amazon",
+    "platform_date": "5/18",
+    "feature_headline": "Alexa Podcasts · AI 按需生成完整播客剧集",
+    "metrics": [
+      "Prime 会员免费",
+      "200+ 新闻合作伙伴"
     ]
   },
   {
@@ -1115,7 +1140,7 @@
     "source_label": "PRNewswire + 新浪科技 · 2026-05-28",
     "source_urls": [
       {
-        "name": "微博官方财报 · PRNewswire",
+        "name": "微博官方财报",
         "url": "https://www.prnewswire.com/news-releases/weibo-announces-first-quarter-2026-unaudited-financial-results-302784136.html"
       },
       {
@@ -1123,8 +1148,8 @@
         "url": "https://finance.sina.com.cn/tech/2026-05-28/doc-inhzmpqp1088293.shtml"
       }
     ],
-    "summary": "微博 Q1 2026 财报：明确「热点内容 + 社群互动 + AI 搜索」为内容生态三大抓手。AI 兴趣用户 YoY +328%，AI 垂类内容消费快速增长。热点搜索落地页、评论区、超话讨论页是核心流量承接场景。",
-    "why_matters": "最强内部对齐信号。音频机会不应另起炉灶，而应嵌入热点搜索落地页、评论区、超话讨论页，先回答「这件事大家在说什么」，再给 60-120 秒可听版。对 ⑤「音频问答发现」是直接内部入口验证——AI 搜索强化 = 内部入口已就位。",
+    "summary": "微博 Q1 财报明确三个方向：<strong>提升热点内容质量、深化社群互动、强化 AI 搜索能力</strong>。首页信息流和优质视频供给持续优化。<br><br>\n        同期发布《微博 AI 内容生态报告》：<strong>AI 兴趣用户一年暴涨 328%</strong>，微博成为 AI 公共议题放大器。AI/科技/财经等高讨论密度垂类用户活跃。",
+    "why_matters": "<strong>对微博音频：最强内部对齐信号。</strong>音频机会不应另起炉灶，而应嵌入热点搜索落地页、评论区、超话讨论页，先回答「这件事大家在说什么」，再给 60-120 秒可听版。AI 垂类可先试。",
     "issue_no_origin": 7,
     "category": "国内 · 微博",
     "tags": [
@@ -1136,6 +1161,14 @@
     ],
     "related_direction_ids": [
       "⑤"
+    ],
+    "platform": "weibo",
+    "platform_label": "微博自身",
+    "platform_date": "5/28 Q1 财报",
+    "feature_headline": "热点内容 + 社群互动 + AI 搜索 = 内容生态三大抓手",
+    "metrics": [
+      "AI 兴趣用户 +328%",
+      "热点+社群+AI 搜索"
     ]
   },
   {
@@ -1148,11 +1181,11 @@
     "source_label": "快手 IR + 科技日报 + 知乎 · 2026-05-27",
     "source_urls": [
       {
-        "name": "快手 IR · Q1 2026 财报",
+        "name": "快手 IR",
         "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-first-quarter-2026-unaudited"
       },
       {
-        "name": "科技日报 · 抖音 AIGC 合规处置",
+        "name": "科技日报 · 抖音 AIGC",
         "url": "https://www.stdaily.com/web/gdxw/2026-05/27/content_523471.html"
       },
       {
@@ -1160,8 +1193,8 @@
         "url": "https://zhuanlan.zhihu.com/p/1916624014283108683"
       }
     ],
-    "summary": "快手可灵 AI 单季收入 6.5 亿人民币，证明 AI 创作工具已可商业化；抖音处置 AIGC 违规内容 80 万条，日均语音处理 150 亿次；豆包 Seed-TTS 2.0 即将向播客场景开放。",
-    "why_matters": "可灵商业化数据对 ⑧「音频高光→视频」内部立项有说服力，证明创作者工作台闭环可行。抖音 80 万条处置 = 治理约束已硬化，所有 AI 音频方向 MVP 必须默认带标识/授权/撤回/内容标签。豆包 Seed-TTS 若落地播客客户端 → 直接触发 ⑪ 唤醒条件 #2（Seeduplex 在播客客户端落地）。",
+    "summary": "<strong>快手可灵（5/27 Q1 财报）</strong>：AI 创作工具单季收入超 6.5 亿元（YoY +300%），用于内容创作、营销、电商、组织管理。<strong>证明 AI 创作工具可商业化。</strong><br><br>\n        <strong>抖音 AIGC 规范（5/27）</strong>：一季度处置超 80 万条 AIGC 违规带货内容（肖像侵权/虚假宣传/低俗营销）。网信办已要求短视频发布设置 6 类必选标签。<strong>治理约束已硬化。</strong><br><br>\n        <strong>豆包 Seed-TTS 2.0（5 月）</strong>：语音合成再升级 · 日均 150 亿次语音处理 · 播客模型即将对外开放 · Seeduplex 全双工已在豆包 App 上线（误回复率降 50%）。",
+    "why_matters": "<strong>对微博：</strong>可灵证明⑧「音频高光→视频」不只是技术想象，真正要做的是创作者工作台闭环。抖音规范 = 所有 AI 音频方向必须默认带标识/授权/撤回/标签。豆包播客模型 = ⑪ 唤醒条件 #2 半步前哨。",
     "issue_no_origin": 7,
     "category": "国内 · 快手/抖音/字节",
     "tags": [
@@ -1176,6 +1209,15 @@
     "related_direction_ids": [
       "⑧",
       "⑪"
+    ],
+    "platform": "kuaishou",
+    "platform_label": "快手 · 抖音 · 字节",
+    "platform_date": "5/27",
+    "feature_headline": "可灵 AI 单季 6.5 亿 + 抖音 AIGC 合规 80 万条处置 + 豆包播客模型即将开放",
+    "metrics": [
+      "可灵 6.5 亿/季",
+      "80 万条 AIGC 违规处置",
+      "日均 150 亿次语音处理"
     ]
   }
 ]

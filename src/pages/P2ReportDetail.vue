@@ -50,6 +50,14 @@ const directionMap = computed(() => {
 function getSignal(id) { return signalMap.value[id] }
 function getDirection(id) { return directionMap.value[id] }
 
+const platformColors = {
+  spotify: '#1DB954',
+  youtube: '#FF0000',
+  amazon: '#FF9900',
+  weibo: '#FF8200',
+  kuaishou: '#FF5722',
+}
+
 function goDirection(id) {
   if (!id) return
   router.push(`/directions/${encodeURIComponent(id)}`)
@@ -214,12 +222,34 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
               {{ bucket.title }}
               <span v-if="bucket.signal_ids?.length" class="bk-count">{{ bucket.signal_ids.length }} 信号</span>
             </h3>
-            <div
-              v-for="sid in (bucket.signal_ids || [])"
-              :key="sid"
-              class="card"
-            >
-              <template v-if="getSignal(sid)">
+            <template v-for="sid in (bucket.signal_ids || [])" :key="sid">
+              <!-- landscape card（信号有 platform 字段时） -->
+              <div
+                v-if="getSignal(sid)?.platform"
+                :class="['l-card', getSignal(sid).platform]"
+                :style="{ '--platform': platformColors[getSignal(sid).platform] || 'var(--muted)' }"
+              >
+                <div class="l-head">
+                  <span class="l-dot"></span>
+                  <span class="l-name">{{ getSignal(sid).platform_label }}</span>
+                  <span class="l-date">{{ getSignal(sid).platform_date }}</span>
+                </div>
+                <div class="l-feature">{{ getSignal(sid).feature_headline }}</div>
+                <div class="l-body" v-html="getSignal(sid).summary"></div>
+                <div v-if="getSignal(sid).metrics?.length" class="l-metrics">
+                  <span v-for="(m, mi) in getSignal(sid).metrics" :key="mi" class="l-metric">{{ m }}</span>
+                </div>
+                <div v-if="getSignal(sid).why_matters" class="l-impact" v-html="getSignal(sid).why_matters"></div>
+                <div v-if="getSignal(sid).source_urls?.length" class="l-src">
+                  <template v-for="(u, ui) in getSignal(sid).source_urls" :key="ui">
+                    <span v-if="ui > 0"> · </span>
+                    <a :href="u.url" target="_blank" rel="noopener noreferrer">{{ u.name }} ↗</a>
+                  </template>
+                </div>
+              </div>
+
+              <!-- 原有 card（无 platform 字段时，向后兼容旧信号） -->
+              <div v-else-if="getSignal(sid)" class="card">
                 <div class="head">
                   <div class="id">{{ getSignal(sid).id }}</div>
                   <div class="title">{{ getSignal(sid).title }}</div>
@@ -238,8 +268,8 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
                 </div>
                 <div class="summary" v-html="getSignal(sid).summary"></div>
                 <div v-if="getSignal(sid).why_matters" class="why" v-html="getSignal(sid).why_matters"></div>
-              </template>
-            </div>
+              </div>
+            </template>
           </template>
         </section>
 
@@ -441,13 +471,20 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
         <!-- 反馈提示 -->
         <footer v-if="report.feedback_prompts?.length" class="report-footer">
-          <div class="rf-label">本期反馈优先级</div>
-          <ul>
-            <li v-for="(fp, fi) in report.feedback_prompts" :key="fi">
-              <strong>优先级 {{ fp.priority }}</strong>：{{ fp.topic }}
-              <span v-if="fp.options?.length" class="rf-options">[ {{ fp.options.join(' / ') }} ]</span>
-            </li>
-          </ul>
+          <h2 class="section anchor-pad" id="section-feedback">
+            <span class="badge">?</span>
+            待 PM 反馈
+            <span class="sub">{{ report.feedback_prompts.length }} 个决策点</span>
+          </h2>
+          <div class="decisions">
+            <div v-for="(fp, fi) in report.feedback_prompts" :key="fi" class="decision">
+              <div class="dec-priority">P{{ fp.priority }}</div>
+              <div class="dec-q">{{ fp.topic }}</div>
+              <div v-if="fp.options?.length" class="dec-opts">
+                <span v-for="(opt, oi) in fp.options" :key="oi" class="dec-opt">{{ opt }}</span>
+              </div>
+            </div>
+          </div>
         </footer>
 
       </main>
@@ -674,6 +711,86 @@ h3.bucket .bk-count {
   font-variant-numeric: tabular-nums;
   font-family: SFMono-Regular, Menlo, Consolas, monospace;
 }
+
+/* ─── A 区 · landscape card ─── */
+.l-card {
+  background: var(--card);
+  border: 1px solid color-mix(in srgb, var(--platform, var(--muted)) 24%, var(--line));
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.l-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.l-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  background: var(--platform, var(--muted));
+}
+.l-name {
+  font-size: 13px;
+  font-weight: 700;
+  flex: 0 0 auto;
+}
+.l-date {
+  font-size: 12px;
+  color: var(--muted);
+  margin-left: auto;
+}
+.l-feature {
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  line-height: 1.42;
+  text-wrap: balance;
+}
+.l-body {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.66;
+  margin-bottom: 10px;
+}
+.l-body :deep(strong) { color: var(--fg); }
+.l-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.l-metric {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--platform, var(--muted)) 10%, transparent);
+  color: var(--platform, var(--muted));
+}
+.l-impact {
+  font-size: 13px;
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: var(--info-soft);
+  line-height: 1.6;
+}
+.l-impact :deep(strong) { color: var(--info); }
+.l-src {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.l-src a {
+  color: var(--info);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--info) 35%, transparent);
+}
+.l-src a:hover { border-bottom-color: var(--info); }
 
 /* ─── A 区 · signal card ─── */
 .card {
@@ -1056,6 +1173,27 @@ h3.bucket .bk-count {
 }
 .status-table td.num-col,
 .status-table th.num-col { text-align: right; }
+
+/* ─── 决策卡 ─── */
+.decisions { display: grid; gap: 12px; }
+.decision {
+  background: var(--card);
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--line));
+  border-radius: 12px;
+  padding: 20px;
+}
+.dec-priority {
+  font-size: 11px; font-weight: 800; color: #fff;
+  background: var(--accent); padding: 3px 10px;
+  border-radius: 4px; display: inline-block; margin-bottom: 8px;
+}
+.dec-q { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+.dec-opts { display: flex; flex-wrap: wrap; gap: 6px; }
+.dec-opt {
+  font-size: 12px; padding: 6px 12px; border-radius: 6px;
+  background: var(--tag-bg); color: var(--fg); font-weight: 600;
+  border: 1px solid var(--line);
+}
 
 /* ─── report footer · 反馈优先级 ─── */
 .report-footer {
