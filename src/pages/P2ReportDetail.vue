@@ -584,6 +584,9 @@ main.content {
 .duo {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.duo:has(> :only-child) {
+  grid-template-columns: 1fr;
   gap: 14px;
   margin-bottom: 20px;
 }
@@ -1076,6 +1079,9 @@ h3.bucket .bk-count {
 .watch-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.duo:has(> :only-child) {
+  grid-template-columns: 1fr;
   gap: 10px;
 }
 @media (max-width: 1080px) { .watch-grid { grid-template-columns: 1fr; } }
