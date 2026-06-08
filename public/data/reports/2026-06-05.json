@@ -15,26 +15,60 @@
     "headline": "三巨头齐推 AI 播客 + 国内入口重组加速 + 唤醒池首次全量扫描",
     "body": "<p><strong>海外</strong>：Spotify / YouTube / Amazon 在同一个两周窗口内各自发布播客 AI 功能，「听播客时可以跟 AI 互动」已从概念变成行业共识。⑪ 收到最强外部前哨信号。</p><p><strong>国内</strong>：微博 Q1 财报明确「热点+社群+AI 搜索」三大抓手；快手可灵单季 6.5 亿证明 AI 创作工具已可商业化；抖音 80 万条 AIGC 违规处置 = 治理约束已硬化。音频机会要长在微博自有入口里。</p>"
   },
-  "takeaway": {
-    "label": "本期看点",
-    "body": "<p><strong>海外</strong>：Spotify / YouTube / Amazon 在同一个两周窗口内各自发布播客 AI 功能，「听播客时可以跟 AI 互动」已从概念变成行业共识。⑪ 收到最强外部前哨信号。</p><p><strong>国内</strong>：微博 Q1 财报明确「热点+社群+AI 搜索」三大抓手；快手可灵单季 6.5 亿证明 AI 创作工具已可商业化；抖音 80 万条 AIGC 违规处置 = 治理约束已硬化。音频机会要长在微博自有入口里。</p>"
-  },
+  "takeaway": null,
   "stats": [
-    {"num": 10, "label": "本期信号"},
-    {"num": 4, "label": "跟进新输入"},
-    {"num": "0/4", "label": "唤醒触发"},
-    {"num": 0, "label": "真·新方向"}
+    {
+      "num": 10,
+      "label": "本期信号"
+    },
+    {
+      "num": 4,
+      "label": "跟进新输入"
+    },
+    {
+      "num": "0/4",
+      "label": "唤醒触发"
+    },
+    {
+      "num": 0,
+      "label": "真·新方向"
+    }
   ],
   "sections": {
     "A": {
       "title": "竞争格局 · 本期全景",
       "subtitle": "5 条平台信号",
       "buckets": [
-        {"title": "国外对标 · Spotify", "signal_ids": ["S-39"]},
-        {"title": "国外对标 · YouTube", "signal_ids": ["S-42"]},
-        {"title": "国外对标 · Amazon", "signal_ids": ["S-43"]},
-        {"title": "国内 · 微博自身", "signal_ids": ["CN-01"]},
-        {"title": "国内 · 快手/抖音/字节", "signal_ids": ["CN-05"]}
+        {
+          "title": "国外对标 · Spotify",
+          "signal_ids": [
+            "S-39"
+          ]
+        },
+        {
+          "title": "国外对标 · YouTube",
+          "signal_ids": [
+            "S-42"
+          ]
+        },
+        {
+          "title": "国外对标 · Amazon",
+          "signal_ids": [
+            "S-43"
+          ]
+        },
+        {
+          "title": "国内 · 微博自身",
+          "signal_ids": [
+            "CN-01"
+          ]
+        },
+        {
+          "title": "国内 · 快手/抖音/字节",
+          "signal_ids": [
+            "CN-05"
+          ]
+        }
       ]
     },
     "B": {
@@ -50,28 +84,39 @@
         {
           "direction_id": "⑪",
           "title": "Spotify + YouTube 双平台已上线「播客内 AI 问答」：⑪ 的精确外部实现，窗口正在收窄",
-          "linked_signal_ids": ["S-39"],
+          "linked_signal_ids": [
+            "S-39"
+          ],
           "linked_note": "→ S-39 Spotify Ask Spotify · S-33 YouTube Ask YouTube(第 6 期)",
           "input": "<strong>形态几乎同构：</strong>Spotify = 听播客时提问 → AI 回答；YouTube = 视频内追问 → 结构化答案。微博 ⑪ = RAG 引用原话回答，更轻量安全。<br><br><strong>落地建议：</strong>第一阶段可以先做文字追问（不必实时语音打断），在热搜音频卡和播客详情页提供「问这段」入口，回答必须引用博文/评论/ASR 片段和时间戳。<br><br><strong>注：⑪ 在保留池，严格走 D 区唤醒判断。</strong>"
         },
         {
           "direction_id": "⑧",
           "title": "快手可灵 6.5 亿证明 AI 创作工具可商业化 + Spotify Clips 片段化分发 + YouTube 10 亿 MAU",
-          "linked_signal_ids": ["CN-05"],
+          "linked_signal_ids": [
+            "CN-05"
+          ],
           "linked_note": "→ 快手 Q1 财报 · Spotify Podcast Clips · YouTube 数据",
           "input": "<strong>⑧ 应拆三层评估：</strong>(1) 高光识别 (2) Clip 分享卡（片段+文案摘要+来源时间戳+标签） (3) 短视频/图文模板。Spotify Clips 证明片段化分发有价值（不必复活③，而是作为⑧基础组件）。快手可灵的商业化数据对内部立项有说服力。<br><br><strong>治理前置</strong>：抖音 80 万条处置 = ⑧ 的 MVP 必须内建 AI 标识/声音授权/投诉撤回。<br><br><strong>评估闭门会仍未开（5 月底建议已过期）。</strong>"
         },
         {
           "direction_id": "⑤",
           "title": "YouTube Ask Music + 微博 AI 搜索强化 → ⑤ 形态应从 prompt 框转向场景内问答",
-          "linked_signal_ids": ["S-42", "CN-01"],
+          "linked_signal_ids": [
+            "S-42",
+            "CN-01"
+          ],
           "linked_note": "→ YouTube Ask Music for Podcasts · 微博 Q1「AI 搜索」抓手",
           "input": "YouTube + Spotify Prompted Playlists 构成⑤的<strong>两大外部参照系</strong>。微博自身 AI 搜索强化 = 内部入口已就位。⑤ 下一次重评时应把「搜索落地页和评论区内的问答发现」作为主形态。"
         },
         {
           "direction_id": "⑩",
           "title": "三巨头同期验证「AI 个性化日播」+ 微博 AI 兴趣用户 +328%",
-          "linked_signal_ids": ["S-39", "S-43", "CN-01"],
+          "linked_signal_ids": [
+            "S-39",
+            "S-43",
+            "CN-01"
+          ],
           "linked_note": "→ Spotify Personal Podcasts · Amazon Alexa Podcasts · Google Daily Brief · 微博 AI 生态报告",
           "input": "形态可行性被 Spotify + Amazon + Google 充分验证。微博 AI 兴趣用户快速增长 = 内容池和受众基础存在。调研问题应从「是否要早间日播」扩展到「是否愿意每天听昨日关注流、超话和热搜摘要」。"
         }
@@ -88,7 +133,11 @@
           "verdict": "未触发",
           "score_summary": "保留 · 唯一触发条件（季度核查）",
           "conditions": [
-            {"text": "站内英文音频存量过 5% 总播放时长", "scan": "未触发", "note": "无数据"}
+            {
+              "text": "站内英文音频存量过 5% 总播放时长",
+              "scan": "未触发",
+              "note": "无数据"
+            }
           ],
           "monitor_freq": "季度",
           "data_sources": "站内供给数据团队季度统计",
@@ -100,10 +149,26 @@
           "verdict": "未触发",
           "score_summary": "15/22 · 保留 · 4 条",
           "conditions": [
-            {"text": "热搜/信息流「播客切片」基础组件完成", "scan": "未触发", "note": "无信息"},
-            {"text": "ASR + vector embedding 覆盖 60%", "scan": "未触发", "note": "无数据"},
-            {"text": "中文同类产品上线类似功能", "scan": "未触发", "note": "未见"},
-            {"text": "⑩ 状态变更为采纳", "scan": "未触发", "note": "⑩ 仍保留"}
+            {
+              "text": "热搜/信息流「播客切片」基础组件完成",
+              "scan": "未触发",
+              "note": "无信息"
+            },
+            {
+              "text": "ASR + vector embedding 覆盖 60%",
+              "scan": "未触发",
+              "note": "无数据"
+            },
+            {
+              "text": "中文同类产品上线类似功能",
+              "scan": "未触发",
+              "note": "未见"
+            },
+            {
+              "text": "⑩ 状态变更为采纳",
+              "scan": "未触发",
+              "note": "⑩ 仍保留"
+            }
           ],
           "monitor_freq": "双周",
           "data_sources": "内部产品周报 / 竞品 / 媒体",
@@ -115,10 +180,26 @@
           "verdict": "未触发",
           "score_summary": "21/22 · 保留 · 4 条",
           "conditions": [
-            {"text": "关注/热搜/话题三类数据可被音频侧调用", "scan": "未触发", "note": "无信息"},
-            {"text": "用户调研「早间私人日播」接受度 ≥30%", "scan": "未触发", "note": "无调研"},
-            {"text": "相邻部门「早 7-8 点推送」留存数据可读", "scan": "未触发", "note": "无信息"},
-            {"text": "Spotify Personal Podcasts 6 个月内披露 DAU/留存正向", "scan": "延后", "note": "下月才上线，条件 #4 触发预计 Spotify Q3/Q4 财报"}
+            {
+              "text": "关注/热搜/话题三类数据可被音频侧调用",
+              "scan": "未触发",
+              "note": "无信息"
+            },
+            {
+              "text": "用户调研「早间私人日播」接受度 ≥30%",
+              "scan": "未触发",
+              "note": "无调研"
+            },
+            {
+              "text": "相邻部门「早 7-8 点推送」留存数据可读",
+              "scan": "未触发",
+              "note": "无信息"
+            },
+            {
+              "text": "Spotify Personal Podcasts 6 个月内披露 DAU/留存正向",
+              "scan": "延后",
+              "note": "下月才上线，条件 #4 触发预计 Spotify Q3/Q4 财报"
+            }
           ],
           "monitor_freq": "双周",
           "data_sources": "用户研究部 / 推送平台 / Spotify 财报",
@@ -130,10 +211,26 @@
           "verdict": "未触发",
           "score_summary": "18/22 · 保留 · 4 条 · ⚠ 重大前哨",
           "conditions": [
-            {"text": "⑦-a 进入「已上线 + 有跳听数据」", "scan": "未触发", "note": "无信息"},
-            {"text": "NotebookLM 中文 / Seeduplex 在播客客户端落地", "scan": "延后", "note": "豆包 App 有，播客无"},
-            {"text": "站内 ASR 覆盖度过 80%", "scan": "未触发", "note": "无数据"},
-            {"text": "AI 节点组表态：不在下半年路线图", "scan": "未触发", "note": "无信息"}
+            {
+              "text": "⑦-a 进入「已上线 + 有跳听数据」",
+              "scan": "未触发",
+              "note": "无信息"
+            },
+            {
+              "text": "NotebookLM 中文 / Seeduplex 在播客客户端落地",
+              "scan": "延后",
+              "note": "豆包 App 有，播客无"
+            },
+            {
+              "text": "站内 ASR 覆盖度过 80%",
+              "scan": "未触发",
+              "note": "无数据"
+            },
+            {
+              "text": "AI 节点组表态：不在下半年路线图",
+              "scan": "未触发",
+              "note": "无信息"
+            }
           ],
           "monitor_freq": "双周",
           "data_sources": "AI 节点组 / Google / 字节 / Spotify / YouTube",
@@ -145,10 +242,22 @@
       "title": "持续观察",
       "subtitle": "4 条",
       "items": [
-        {"text": "<strong>Apple WWDC 2026（6/8）</strong>：iOS 27 · Siri 重做为聊天式 AI · Apple Intelligence 扩展。关注 Apple Podcasts AI 新功能。下期重点覆盖。", "score": null},
-        {"text": "<strong>EU AI Act Art.50 + 国内 AIGC 标注（8/2）</strong>：合成媒体披露义务。国内抖音已执行，微博所有 AI 音频方向需默认带标识/授权/撤回。", "score": null},
-        {"text": "<strong>Spotify Q2 财报（7 月）</strong>：Personal Podcasts 使用量级/留存数据，是 ⑩ 唤醒条件 #4 最可能触发源。", "score": null},
-        {"text": "<strong>字节播客模型 + 番茄畅听（持续）</strong>：Seeduplex 若在播客客户端落地 → 直接触发 ⑪ 唤醒条件 #2。", "score": null}
+        {
+          "text": "<strong>Apple WWDC 2026（6/8）</strong>：iOS 27 · Siri 重做为聊天式 AI · Apple Intelligence 扩展。关注 Apple Podcasts AI 新功能。下期重点覆盖。",
+          "score": null
+        },
+        {
+          "text": "<strong>EU AI Act Art.50 + 国内 AIGC 标注（8/2）</strong>：合成媒体披露义务。国内抖音已执行，微博所有 AI 音频方向需默认带标识/授权/撤回。",
+          "score": null
+        },
+        {
+          "text": "<strong>Spotify Q2 财报（7 月）</strong>：Personal Podcasts 使用量级/留存数据，是 ⑩ 唤醒条件 #4 最可能触发源。",
+          "score": null
+        },
+        {
+          "text": "<strong>字节播客模型 + 番茄畅听（持续）</strong>：Seeduplex 若在播客客户端落地 → 直接触发 ⑪ 唤醒条件 #2。",
+          "score": null
+        }
       ]
     }
   },
@@ -156,22 +265,39 @@
     {
       "priority": 1,
       "topic": "⑪ 唤醒条件扩展：Spotify + YouTube 已上线同类功能，是否追加第 5 条唤醒条件让 ⑪ 回流？",
-      "options": ["追加并触发回流", "追加但暂不触发", "维持原 4 条"]
+      "options": [
+        "追加并触发回流",
+        "追加但暂不触发",
+        "维持原 4 条"
+      ]
     },
     {
       "priority": 2,
       "topic": "⑧ 评估闭门会进度 + 是否把 Spotify Clips 类能力并入 ⑧ 基础组件（而非复活 ③）？",
-      "options": ["闭门会已开", "未开·维持跟进", "Clips 并入⑧组件", "复活③重评"]
+      "options": [
+        "闭门会已开",
+        "未开·维持跟进",
+        "Clips 并入⑧组件",
+        "复活③重评"
+      ]
     },
     {
       "priority": 3,
       "topic": "是否将 AI 标识/声音授权/投诉撤回/内容标签写入所有 AI 音频方向的 MVP 必备发布流程？",
-      "options": ["写入默认约束", "仅用于⑧", "暂时观察"]
+      "options": [
+        "写入默认约束",
+        "仅用于⑧",
+        "暂时观察"
+      ]
     },
     {
       "priority": 4,
       "topic": "连续 4 期无新方向：已有方向够用？需拓宽搜索范围（穿戴/车载）？需降阈值？",
-      "options": ["正常，够用", "拓宽搜索", "降阈值到 15/26"]
+      "options": [
+        "正常，够用",
+        "拓宽搜索",
+        "降阈值到 15/26"
+      ]
     }
   ]
 }
