@@ -28,7 +28,9 @@
     "wakeup_conditions": [],
     "wakeup_meta": null,
     "related_direction_ids": [],
-    "related_signal_ids": ["S-01"]
+    "related_signal_ids": [
+      "S-01"
+    ]
   },
   {
     "id": "②",
@@ -64,7 +66,9 @@
     "wakeup_conditions": [],
     "wakeup_meta": null,
     "related_direction_ids": [],
-    "related_signal_ids": ["S-07"]
+    "related_signal_ids": [
+      "S-07"
+    ]
   },
   {
     "id": "③",
@@ -108,8 +112,12 @@
     ],
     "wakeup_conditions": [],
     "wakeup_meta": null,
-    "related_direction_ids": ["⑨"],
-    "related_signal_ids": ["S-06"]
+    "related_direction_ids": [
+      "⑨"
+    ],
+    "related_signal_ids": [
+      "S-06"
+    ]
   },
   {
     "id": "④",
@@ -144,7 +152,10 @@
     "wakeup_conditions": [],
     "wakeup_meta": null,
     "related_direction_ids": [],
-    "related_signal_ids": ["S-03", "S-09"]
+    "related_signal_ids": [
+      "S-03",
+      "S-09"
+    ]
   },
   {
     "id": "⑤",
@@ -161,7 +172,7 @@
     "effort": "S",
     "priority": "P1",
     "first_appeared": "2026-04-27",
-    "last_updated": "2026-05-12",
+    "last_updated": "2026-06-05",
     "first_appeared_issue_no": 1,
     "form_description": "用户输入一句话提示词，AI 生成专属播客发现列表，落点是音频聚合页。需要补『社交维度』的差异化方案。",
     "weibo_advantage": "社交互动数据 + 关注关系，可生成社交化推荐理由。",
@@ -190,7 +201,12 @@
     "wakeup_conditions": [],
     "wakeup_meta": null,
     "related_direction_ids": [],
-    "related_signal_ids": ["S-05", "S-14", "S-22", "S-33"]
+    "related_signal_ids": [
+      "S-05",
+      "S-14",
+      "S-22",
+      "S-33"
+    ]
   },
   {
     "id": "⑥",
@@ -245,8 +261,18 @@
     ],
     "wakeup_conditions": [],
     "wakeup_meta": null,
-    "related_direction_ids": ["⑪"],
-    "related_signal_ids": ["S-08", "S-15", "S-17", "S-23", "S-24", "S-28", "S-31"]
+    "related_direction_ids": [
+      "⑪"
+    ],
+    "related_signal_ids": [
+      "S-08",
+      "S-15",
+      "S-17",
+      "S-23",
+      "S-24",
+      "S-28",
+      "S-31"
+    ]
   },
   {
     "id": "⑦-a",
@@ -285,8 +311,14 @@
     ],
     "wakeup_conditions": [],
     "wakeup_meta": null,
-    "related_direction_ids": ["⑪"],
-    "related_signal_ids": ["S-04", "S-23", "S-28"]
+    "related_direction_ids": [
+      "⑪"
+    ],
+    "related_signal_ids": [
+      "S-04",
+      "S-23",
+      "S-28"
+    ]
   },
   {
     "id": "⑦-b",
@@ -333,7 +365,11 @@
       "scan_result": "未触发（技术侧 ready；供给侧无变化）"
     },
     "related_direction_ids": [],
-    "related_signal_ids": ["S-04", "S-07", "S-28"]
+    "related_signal_ids": [
+      "S-04",
+      "S-07",
+      "S-28"
+    ]
   },
   {
     "id": "⑧",
@@ -350,7 +386,7 @@
     "effort": "M",
     "priority": "P1",
     "first_appeared": "2026-04-27",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-06-05",
     "first_appeared_issue_no": 1,
     "form_description": "高光识别（情绪 + 评论热度）+ 视觉模板设计 + 与剪映 / 视频号对接。微博应押短切片+高光剪辑，不做完整视频版。",
     "archive_entries": [
@@ -393,7 +429,15 @@
       "scan_result": "新入池"
     },
     "related_direction_ids": [],
-    "related_signal_ids": ["S-02", "S-10", "S-16", "S-19", "S-26", "S-30", "S-33"]
+    "related_signal_ids": [
+      "S-02",
+      "S-10",
+      "S-16",
+      "S-19",
+      "S-26",
+      "S-30",
+      "S-33"
+    ]
   },
   {
     "id": "⑨",
@@ -448,8 +492,15 @@
       "last_scanned": "2026-05-18",
       "scan_result": "未触发"
     },
-    "related_direction_ids": ["③", "⑩"],
-    "related_signal_ids": ["S-13", "S-19", "S-21"]
+    "related_direction_ids": [
+      "③",
+      "⑩"
+    ],
+    "related_signal_ids": [
+      "S-13",
+      "S-19",
+      "S-21"
+    ]
   },
   {
     "id": "⑩",
@@ -466,7 +517,7 @@
     "effort": "M",
     "priority": "P0",
     "first_appeared": "2026-05-08",
-    "last_updated": "2026-05-12",
+    "last_updated": "2026-06-05",
     "first_appeared_issue_no": 3,
     "form_description": "基于用户关注博主×热搜互动×话题偏好，每天 AI 生成 5–10 分钟私人专属播报，早 7–8 点自动推送到『稍后听』列表。",
     "weibo_advantage": "社交关系链（Spotify 没有）。",
@@ -499,8 +550,12 @@
       "last_scanned": "2026-05-18",
       "scan_result": "未触发"
     },
-    "related_direction_ids": ["⑨"],
-    "related_signal_ids": ["S-21"]
+    "related_direction_ids": [
+      "⑨"
+    ],
+    "related_signal_ids": [
+      "S-21"
+    ]
   },
   {
     "id": "⑪",
@@ -517,7 +572,7 @@
     "effort": "M",
     "priority": "P1",
     "first_appeared": "2026-05-08",
-    "last_updated": "2026-05-12",
+    "last_updated": "2026-06-05",
     "first_appeared_issue_no": 3,
     "form_description": "听播客时随时点击『追问』，用语音或文字提问，AI 用 RAG 引用本集 ASR 转录内容回答，回答后无缝续播。",
     "archive_entries": [
@@ -549,7 +604,14 @@
       "last_scanned": "2026-05-18",
       "scan_result": "未触发"
     },
-    "related_direction_ids": ["⑥", "⑦-a"],
-    "related_signal_ids": ["S-23", "S-24", "S-28"]
+    "related_direction_ids": [
+      "⑥",
+      "⑦-a"
+    ],
+    "related_signal_ids": [
+      "S-23",
+      "S-24",
+      "S-28"
+    ]
   }
 ]

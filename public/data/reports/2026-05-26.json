@@ -1,0 +1,108 @@
+{
+  "issue_no": 7,
+  "date": "2026-05-26",
+  "version_ruler": "v1.5",
+  "title": "微博音频灵感 Agent · v1.5 第 7 期 · Spotify Investor Day 三连击",
+  "window_start": "2026-05-21",
+  "window_end": "2026-05-26",
+  "meta": {
+    "search_routes": 16,
+    "data_source": "窗口 2026-05-21 → 05-26 · 10 路并行 WebSearch + 6 路国内竞品补扫 + WebFetch 三条核源逐条验证(「原文加载成功 + 日期在窗口内 + 关键事实可在原文里逐字找到」三段验证)。撤稿 1 条：NotebookLM 50 语言 blog.google 原文日期为 2025-04-29，窗口外旧文；窗口外补做申请否决：腾讯收购喜马拉雅 05-12 获批属 2025 年协议续集，PM 决定不入库。",
+    "phase": "calibration",
+    "blocked_directions": [
+      "① 信息流语音化(已采纳·互动组)",
+      "② 热搜→AI 双主播(已采纳·热搜组)",
+      "③ Timed Links(已忽略)",
+      "④ 经典 IP 音色(已忽略)",
+      "⑦-b 多语种同传(保留池)",
+      "⑧ 音频高光→视频(保留池)",
+      "⑨ 历史播客→当下新闻(保留池)",
+      "⑩ 社交图谱日播(保留池)",
+      "⑪ Interactive AI 追问(保留池)"
+    ]
+  },
+  "meta_banner": {
+    "label": "⚑ 第 7 期 · 流程校准 + Spotify Investor Day 信号集中验证",
+    "headline": "",
+    "body": "本期三项流程校准记录：<br><br><strong>(1) 信号偏向校准</strong>：根据 PM 反馈，信号扫描策略调整为<strong>「信息 / 产品动态类 > 技术 / 模型发布类」</strong>，AI 时效性（维度 5）不再作为主驱动维度，产品形态可行性和用户体验变化优先。此偏好已写入 business-config 的 user_preferences 字段。<br><br><strong>(2) 国内竞品信号质量说明</strong>：本期额外增加 6 路国内竞品补扫（小宇宙 / 喜马拉雅 / 抖音快手 / B 站 / 网易云 / 微信视频号），信号密度显著低于国外。原因：国内平台<strong>缺乏对标 Spotify Newsroom / blog.google 的官方博客渠道</strong>，发布信息散落在应用商店 changelog / 微信公众号 / 媒体报道，WebSearch 不易精准命中。此为已知结构性限制，记录在案，后续可探索定向国内信源清单。<br><br><strong>(3) 核源规则复现</strong>：本期 WebFetch 完全正常。撤稿 1 条——WebSearch 综述声称「NotebookLM 支持 50+ 语言是 I/O 后新发布」，WebFetch 原文确认日期 2025-04-29，窗口外旧文，撤稿。<strong>规则（再次确认）：禁止将 WebSearch 综述断言作为信源，必须以独立加载的原文日期为准。</strong>"
+  },
+  "takeaway": {
+    "label": "本期看点",
+    "body": "Spotify 在 05-21 Investor Day 上同时发布了两个与微博保留方向形成<strong>直接外部形态验证</strong>的功能：<br><br><strong>S-39 Personal Podcasts App 内生成 → ⑩ 社交图谱日播</strong>：Spotify 将「prompt → 每日 / 周私人音频节目」做成产品级功能，即将向美区 Premium 推出。与微博 ⑩ 的核心差异：Spotify 走「<strong>用户主动 prompt + 收听偏好数据</strong>（个人品味驱动）」，微博 ⑩ 走「<strong>社交关系图谱 + 完全被动推送</strong>（社交数据驱动）」。微博的独家筹码——follow 关系 + 话题图谱 + 热搜实时性——是 Spotify 无法复制的。但 Spotify 先行验证了产品形态的市场接受度，<strong>降低了微博的用户教育成本，也缩短了先发窗口</strong>。<br><br><strong>S-40 AI Q&A for Podcasts → ⑪ Interactive AI 追问</strong>：已于 05-21 在美 / 瑞 / 爱上线，与 ⑪ 核心交互几乎同构（播客内容为知识库 + 实时追问 + AI 回答 + 相关推荐）。⑪ 的内部 blocker 不变（⑦-a 未上线），但竞品先行的<strong>决策窗口紧迫度</strong>在上升。<br><br>本期最值得 PM 回应的决策点：是否要基于 Spotify 的落地，重新评估 ⑩⑪ 的唤醒优先级——或者主动追踪 Spotify 上线后的用户反应数据作为参照基准。"
+  },
+  "stats": [
+    {"num": 3, "label": "本期信号"},
+    {"num": 0, "label": "真·新方向"},
+    {"num": 2, "label": "跟进方向新输入"},
+    {"num": 0, "label": "本期入唤醒池"}
+  ],
+  "sections": {
+    "A": {
+      "title": "现状概况",
+      "subtitle": "3 条 · 集中在 Spotify Investor Day（05-21）",
+      "buckets": [
+        {
+          "title": "国外对标 · 产品动态（Spotify）",
+          "signal_ids": ["S-39", "S-40"]
+        },
+        {
+          "title": "行业动态 · 平台层",
+          "signal_ids": ["S-41"]
+        }
+      ]
+    },
+    "B": {
+      "title": "真·新方向",
+      "subtitle": "本期 0 条 · 连续 4 期",
+      "new_direction_ids": [],
+      "empty_reason": "<strong>本期 3 条信号均不构成新的微博方向。</strong><ul><li><strong>S-39（Spotify Personal Podcasts）</strong>：⑩（社交图谱日播，保留池，21/22）的外部形态验证，不是微博侧新方向。</li><li><strong>S-40（Spotify AI Q&A）</strong>：⑪（Interactive AI 追问，保留池，18/22）的外部形态验证，不是微博侧新方向。</li><li><strong>S-41（ElevenLabs 有声书平台）</strong>：聚焦长有声书，与微博播客 / 短音频场景差异明显，不构成微博新方向，E 区建档观察。</li></ul>"
+    },
+    "C": {
+      "title": "跟进方向的新输入",
+      "subtitle": "2 条 · ⑩（Spotify Personal Podcasts 形态对照）+ ⑪（Spotify AI Q&A 形态对照）",
+      "followups": [
+        {
+          "direction_id": "⑩",
+          "title": "⑩ 社交图谱日播 · Spotify Personal Podcasts「prompt + 品味驱动」vs 微博「社交图谱 + 被动推送」差异分析",
+          "linked_signal_ids": ["S-39"],
+          "linked_note": "→ 关联信号 S-39（Spotify Investor Day 2026 · Personal Podcasts App 内直接生成，05-21）",
+          "input": "⑩ 当前评分 21/22（v1.5，保留）。S-39 是本期最重要的外部参照——Spotify 已将「每日个性化私人播报」做成产品级功能，即将向美区 Premium 推出。<br><br><strong>形态对比：</strong><br>Spotify 路径：用户写 prompt → 平台结合收听历史 / 品味偏好生成私人音频节目，可定时每日 / 周生成，私人库独享，不公开。<br>微博 ⑩ 路径：系统读取社交关系图谱（关注 + 热搜互动 + 话题偏好）→ 早间被动推送「今日私人播报」，用户无需任何操作。<br><br><strong>微博的差异化筹码仍然成立：</strong>Spotify 没有社交图谱，只有个人收听历史；微博独有「follow 关系 + 话题图谱 + 热搜实时性」三层社交数据，是 Spotify 无法复制的筹码。<strong>但 Spotify 先行验证了用户接受度</strong>，对 ⑩ 的「用户调研唤醒条件 #2」是利好——市场教育成本已经降低。<br><br>本期不主张提评分 / 改 status，但建议：(1) 将「Spotify Personal Podcasts 美区 launch + 30 天留存数据披露」列为 ⑩ 的外部观察节点；(2) 唤醒条件 #2（用户调研 ≥30% 接受度）的研究设计可以引用 Spotify 用例作为刺激材料。"
+        },
+        {
+          "direction_id": "⑪",
+          "title": "⑪ Interactive AI 追问 · Spotify AI Q&A 已上线美 / 瑞 / 爱，与 ⑪ 核心交互几乎同构",
+          "linked_signal_ids": ["S-40"],
+          "linked_note": "→ 关联信号 S-40（Spotify Investor Day 2026 · AI Q&A for Podcasts，05-21 上线）",
+          "input": "⑪ 当前评分 18/22（v1.5，保留）。S-40 与 ⑪ 的形态几乎完全重合：Spotify 在收听时可实时追问节目内容，获得 AI 回答 + 相关播客推荐；微博 ⑪ 是收听时打断追问，RAG 检索节目内容给出回答。<br><br>Spotify 先于微博完成落地（已上线），这是一个明确的「决策窗口紧迫度」信号。需要注意的是：(1) Spotify 目前仅限美 / 瑞 / 爱三国 Premium 用户，中国市场无推进计划；(2) 微博 ⑪ 的核心 blocker 仍是「⑦-a AI 节点尚未上线」，属内部基础设施依赖，Spotify 的动作不改变这一依赖链。<br><br>本期不主张改 status，但建议：考虑将「Spotify AI Q&A 扩展至全球 Premium 用户」加入 ⑪ 唤醒条件列表，作为外部紧迫度触发器——一旦 Spotify 全球化，「中国市场无同类产品」的时间窗口会快速收窄。"
+        }
+      ]
+    },
+    "E": {
+      "title": "持续观察",
+      "subtitle": "1 条 · ElevenLabs 平台化转型",
+      "items": [
+        {
+          "signal_id": "S-41",
+          "note": "ElevenLabs 宣布进军有声书平台，直接对标 Spotify Audiobooks 和 Audible。标志着 AI 语音工具商从 B 端基础设施向 C 端内容平台转移的开始。对微博音频直接影响有限（场景聚焦长有声书），但「AI 语音技术商自建内容平台」的路径若成立，ElevenLabs 未来可能延伸到播客场景，值得长期关注。"
+        }
+      ]
+    }
+  },
+  "feedback_prompts": [
+    {
+      "priority": 1,
+      "topic": "S-40 Spotify AI Q&A 与 ⑪ Interactive AI 追问几乎完全同构，已在美 / 瑞 / 爱上线 — 是否将「Spotify AI Q&A 扩展至全球 Premium 用户」加入 ⑪ 的唤醒条件？",
+      "options": ["加入唤醒条件", "暂不加入，等 ⑦-a 先上线", "重新评估 ⑪ 的整体优先级"]
+    },
+    {
+      "priority": 2,
+      "topic": "S-39 Spotify Personal Podcasts 即将向美区 Premium 推出 — 是否主动追踪其 30 天用户反应数据，作为 ⑩ 用户调研设计的参照基准？",
+      "options": ["是，下期收集 Spotify 用户反应数据", "否，微博和 Spotify 用户差异太大", "推迟到 ⑩ 唤醒条件临近时再说"]
+    },
+    {
+      "priority": 3,
+      "topic": "国内竞品信号本期稀薄（WebSearch 对小宇宙 / 抖音 / B 站即时动态覆盖差）— 是否值得建立国内信源定向清单（应用商店 changelog / 特定公众号）？",
+      "options": ["是，下期给出国内信源清单方案", "国内信号本来就少，接受现状", "等有具体需求再说"]
+    }
+  ]
+}

@@ -779,5 +779,403 @@
     "category": "国外对标 · 创作工具",
     "tags": [],
     "related_direction_ids": []
+  },
+  {
+    "id": "S-34",
+    "title": "Google I/O 2026 keynote (5/19) · Gemini 3.5 Flash / Omni / Spark / Daily Brief 四件套发布",
+    "score_value": null,
+    "score_max": null,
+    "score_label": "high",
+    "date": "2026-05-19",
+    "source_label": "来源:Google I/O 2026 · 2026-05-19",
+    "source_urls": [
+      {
+        "name": "9to5google · Live Blog",
+        "url": "https://9to5google.com/2026/05/19/google-io-2026-live-blog-news-hub/"
+      },
+      {
+        "name": "9to5google · Everything announced",
+        "url": "https://9to5google.com/2026/05/19/google-io-2026-news/"
+      },
+      {
+        "name": "9to5google · Gemini app 详情",
+        "url": "https://9to5google.com/2026/05/19/gemini-app-google-io-2026/"
+      }
+    ],
+    "summary": "Google I/O 2026 (5/19 Mountain View) Sundar Pichai keynote 两小时核心发布:<br>(1) <strong>Gemini 3.5 Flash</strong> 今日发布,超越 3.1 Pro 的 coding/agentic/multimodal benchmark,4× faster 于其他 frontier 模型,Gemini app/Search/Antigravity 2.0/API 同步上线;3.5 Pro 6 月发布。<br>(2) <strong>Gemini Omni (Flash)</strong> 今日发布给 AI Plus/Pro/Ultra,可接受 image/audio/video/text 输入并输出 grounded 视频,Google Flow 与 Flow Music 同步上 mobile app。<br>(3) <strong>Gemini Spark</strong> — \"personal agent\",24/7 跑在 Google Cloud 专属虚拟机里,集成 Gmail/Docs/Workspace 优先,夏天扩展第三方 MCP;Android Halo 顶部条做手机端进度可视化;下周对 AI Ultra US 用户开放;Mac 版夏天到。<br>(4) <strong>Daily Brief</strong> — 个性化每日摘要 agent,自动扫 Gmail/Calendar/Tasks 生成 \"Top of mind / Looking ahead\" 两段,今日 AI Plus/Pro/Ultra US 上线。<br>(5) 此外 Ask YouTube 已对 US Premium 上线;Android XR audio glasses 今秋出货(Samsung+Qualcomm+Gentle Monster/Warby Parker);AI Ultra 入门档降到 $100,顶层档 $250→$200。Gemini app MAU 已达 9 亿(2× 增长)。",
+    "why_matters": "Gemini Spark + Daily Brief + Android Halo 三件套是 ⑩ <strong>\"社交图谱日播\"</strong> 路径的强外部信号 — Google 用产品级形态把 \"24/7 跑虚拟机 + 主动每日数字生活摘要\" 做成消费品。但 Google 走的是 <strong>企业生产力路径</strong>(Gmail/Calendar/Tasks),信号源是用户的工作流;微博 ⑩ 走的是 <strong>社交图谱 + 早间被动消费</strong>(关注/热搜/话题偏好),信号源是社交关系。两者平行,不冲突 — Google 的产品级实现反而验证了 \"individual daily brief\" 形态可行性,降低了 ⑩ 在 PM 端的认知阻力。<br><br>另:Gemini Omni 多模态生成 + Ask YouTube 路径对 ⑦-a \"AI 摘要扩展 AI 节点\" 是同方向信号,但 \"AI 节点\" 更细粒度,Gemini Omni 是大流量任务,不直接竞争。",
+    "issue_no_origin": 6,
+    "category": "国外对标 · AI 技术 + 产品动态",
+    "tags": [
+      "google",
+      "io_2026",
+      "gemini",
+      "agent",
+      "daily_brief"
+    ],
+    "related_direction_ids": [
+      "⑤",
+      "⑥",
+      "⑩"
+    ]
+  },
+  {
+    "id": "S-35",
+    "title": "Google I/O 2026 · Notebooks in Gemini + Literature Insights(NotebookLM 集成扩展)",
+    "score_value": null,
+    "score_max": null,
+    "score_label": "mid",
+    "date": "2026-05-19",
+    "source_label": "来源:Google blog.google · 2026-05-19",
+    "source_urls": [
+      {
+        "name": "Google blog · Notebooks in Gemini",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/"
+      },
+      {
+        "name": "Google Developers blog · I/O 2026 dev keynote",
+        "url": "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/"
+      },
+      {
+        "name": "Google blog · 100 things at I/O 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+      }
+    ],
+    "summary": "Google 5/19 给 Gemini app 内嵌了 NotebookLM 的「笔记本」功能 —— 用户可以在 Gemini 对话里直接<strong>把多轮聊天 + 项目资料组织成 Notebook</strong>,与 NotebookLM 双向同步。本周 web 端先对 AI Ultra / Pro / Plus 用户开放,后续扩到 mobile / 欧洲多国 / free 用户。<br><br>同时发布 <strong>Literature Insights</strong>(labs.google/science 注册):用 NotebookLM 引擎在科研场景做<strong>文献检索 + 结构化属性表对比 + 对话调研 + audio/video overview</strong>。研究者可以把一组论文喂进去,出一份带 audio overview 的对比报告。<br><br><strong>关键澄清</strong>:NotebookLM <strong>Interactive Audio Mode</strong>(用户加入 Audio Overview 对话语音提问)<strong>不是本周新发布</strong> — 那是 2024-09 / 2024-12 的旧功能。WebSearch 综述误把它说成 I/O 2026 新发布,经 Google 官博(blog.google/innovation-and-ai/products/notebooklm-audio-overviews/,2024-09-11)核源后确认。",
+    "why_matters": "<strong>NotebookLM 从独立工具升级为 Gemini 生态基础设施层 — 这是 ⑦-a「AI 摘要扩展 AI 节点」的产品形态背书。</strong><br><br>本期信号给 ⑦-a(部分采纳,8/22)三个产品视角的新输入:<ul><li><strong>形态空间被官方拓宽</strong>:从「单集播客 audio overview」拓宽到「<strong>垂直场景知识库 + audio/video 双输出 + 跳听粒度</strong>」 — Google 用 Literature Insights 验证了这条线在科研场景的产品化路径,微博音频可以参照同样的「行业垂直 + 节点跳听」方向</li><li><strong>用户路径变了</strong>:NotebookLM 不再是独立 app,变成 Gemini 内的「笔记本」入口 — 这给微博音频 ⑦-a 的产品定位启示:<strong>AI 节点应该长在主消费路径里,不该是独立模块</strong></li><li><strong>⑪ 唤醒条件 #2 仍未触发</strong>:经核源,Interactive Audio Mode 中文版 / 重大功能升级在本期 Google 没有任何动作,⑪ 维持保留</li></ul>",
+    "issue_no_origin": 6,
+    "category": "国外对标 · AI 技术 + 产品动态",
+    "tags": [
+      "google",
+      "io_2026",
+      "notebooklm",
+      "ai_node"
+    ],
+    "related_direction_ids": [
+      "⑦-a",
+      "⑪"
+    ]
+  },
+  {
+    "id": "S-36",
+    "title": "Spotify 5/14 宣布采用 Apple HLS 视频流技术 · 全球播客双 stack 统一 + 视频跨平台监测/广告打通",
+    "score_value": null,
+    "score_max": null,
+    "score_label": "high",
+    "date": "2026-05-14",
+    "source_label": "来源:MacRumors 2026-05-14 · Apple Newsroom 2026-02-16 · Podnews 2026-02-23/03-24 更新 · Dataconomy 2026-05-15",
+    "source_urls": [
+      {
+        "name": "MacRumors · Spotify to Adopt Apple's Tech for Video Podcasts(2026-05-14)",
+        "url": "https://www.macrumors.com/2026/05/14/spotify-to-adopt-apples-tech-for-video-podcasts/"
+      },
+      {
+        "name": "Spotify Creators 官方公告(MacRumors 链接的源)",
+        "url": "https://creators.spotify.com/resources/news/expanding-video-partners-and-platforms"
+      },
+      {
+        "name": "Apple Newsroom · HLS 视频播客原始公告(2026-02-16)",
+        "url": "https://www.apple.com/newsroom/2026/02/apple-introduces-a-new-video-podcast-experience-on-apple-podcasts/"
+      },
+      {
+        "name": "Podnews · Apple Podcasts HLS streams: how they work(技术解析,James Cridland,03-24 更新)",
+        "url": "https://podnews.net/article/apple-podcasts-hls-tech"
+      },
+      {
+        "name": "Dataconomy · Spotify Adopts Apple Streaming Technology For Video Podcasts(2026-05-15)",
+        "url": "https://dataconomy.com/2026/05/15/spotify-adopts-apple-hls-video-podcasts/"
+      }
+    ],
+    "summary": "<p><strong>两段时间线一条产品级动作 — 全球播客生态进入「双 stack 统一 + 音视频融合」阶段。</strong></p>\n\n<h5 class=\"sub\">① Apple 起手 · 2026-02-16</h5>\n<p>Apple 把视频播客做成 Apple Podcasts 原生体验。Eddy Cue 给的定调:「<em>Today marks a defining milestone in that journey</em>」— 跟 20 年前在 iTunes 加播客平级。用户侧:<strong>音频↔视频无缝切换、横屏全屏、视频离线下载、自动码率适应</strong>。</p>\n<p>首批 hosting 伙伴 4 家:<strong>Acast / ART19(Amazon)/ Triton Omny Studio / SiriusXM</strong>(含 SiriusXM Media / AdsWizz / Simplecast)。</p>\n<p>商业模式很干净:Apple <strong>对 hosting 和 creators 完全不收费</strong>(无论 RSS/MP3 还是新视频路径),只对广告网络按 impression 收费(年底启动)。<strong>首次开放动态视频广告插入(含 host-read)</strong> — 把视频广告生态接到了播客侧。iOS 26.4 / iPadOS 26.4 / visionOS 26.4 同日 beta,3/24 GA。</p>\n\n<h5 class=\"sub\">② Spotify 跟进 · 2026-05-14</h5>\n<p>Spotify for Creators + Megaphone 平台<strong>今年晚些时候</strong>采纳 Apple 的视频流方案。Spotify 自己定调「<em>a major step toward truly platform-agnostic video distribution</em>」。</p>\n<p>关键两点产品安排:<br>(a) 创作者「<strong>无需改变现有 setup</strong>」就能跨 Spotify + Apple 双平台分发 — 内容生产侧零迁移成本;<br>(b) Spotify 还将<strong>支持视频内容在 Apple Podcasts 上的 monetization</strong>,创作者「<em>不必在到达量和收入之间二选一</em>」。</p>\n<p>产品/战略上一个微妙的<strong>双轨选择</strong>:视频<strong>必须直传 Spotify(不走 RSS)</strong>,为了 Spotify-first 的留存监测 + 实时分析 + 商业化;但<strong>音频 RSS 分发到其他平台(含 Apple Podcasts)保持不变</strong>。Spotify 用这种方式既加入了 Apple 的生态,又锁住了视频侧的数据闭环。</p>\n<p>同日还宣布 Libsyn / Podigee / Audioboom / Audiomeans / Podspace 5 家 hosting 平台完成视频分发对接,creator 可直接发视频到 Spotify。</p>",
+    "why_matters": "<p><strong>三层叠加 — 这是 ⑧「音频高光→视频」方向本期最关键外部信号。</strong></p>\n\n<ol class=\"layers\">\n  <li>\n    <strong>严格对照 ⑧ 唤醒条件 #4 — 不触发,但是「前哨信号」</strong>\n    <p>条件 #4 写的是「YouTube / Spotify 公开披露音频→视频转化留存或商业化数据」。本条不是数据披露、是技术栈采纳 + 商业模式定调,严格判断<strong>未触发</strong>。但 Spotify 这次动作的核心目标就是 dynamic ads + 留存 analytics,真实数据出来只是时间问题。</p>\n    <p class=\"hint\">建议:把本条作为 #4 的「前哨信号」标记,Q3-Q4 主动监测 Spotify Q2/Q3 财报与 Spotify for Podcasters 公开 metrics。</p>\n  </li>\n  <li>\n    <strong>间接抬高 ⑧ 唤醒条件 #2 优先级 — 中文跟进概率显著升高</strong>\n    <p>条件 #2:「中文同类产品(小宇宙 / 喜马拉雅 / B 站)上线音频高光→视频产品级功能,半年内用户量级 ≥ 千万」。Spotify+Apple 全球双 stack 统一是头部级动作,中文长音频玩家很难在 6-12 个月内不跟进 — 小宇宙(已有 AI 分段 + 时点)+ 喜马拉雅(空间音频 + 音剪 3.1 万创作者)+ B 站(音视频天然融合) 三家任一动作都会触发本条。</p>\n    <p class=\"hint\">建议:「中文同类产品跟进进度」作为下期 D 区唤醒池扫描的主轴(若 PM 启用)。</p>\n  </li>\n  <li>\n    <strong>战略选择 — Apple 与 Spotify 的双轨模式对微博音频的参考</strong>\n    <p>Apple 选「creator/host 免费 + 广告网络付费」— 把变现压力全部从供给侧转到需求侧。Spotify 选「<strong>音频走 RSS 开放,视频走平台私有路径锁定数据闭环</strong>」的双轨模式 — 音频维持开放生态保留跨平台分发,视频私有锁住(为了 engagement + 监测 + 商业化)。</p>\n    <p class=\"hint\">对微博的启示:微博跟 Spotify 一样是封闭社交生态,Spotify 的双轨模式比 Apple 更有参考意义 — 视频高光本质上就是站内二次分发,锁住更合理。</p>\n  </li>\n</ol>\n\n<p class=\"closing\"><strong>本期决策建议</strong>:PM 若启用 D 区唤醒池扫描(feedback prompt priority 2),建议在 ⑧ 的扫描结论里写「前哨标记 + 中文同类产品跟进监测 + 双轨产品战略参考」。</p>"
+  },
+  {
+    "id": "S-37",
+    "title": "The Podcast Show 2026 London 第 5 届行业大会(5/20-21)",
+    "score_value": null,
+    "score_max": null,
+    "score_label": "low",
+    "date": "2026-05-20",
+    "source_label": "来源:Podnews · 2026-05",
+    "source_urls": [
+      {
+        "name": "Podnews · The Podcast Show 5th edition final release",
+        "url": "https://podnews.net/press-release/psl-london-final-release"
+      }
+    ],
+    "summary": "Business Design Centre, London,5/20-21,第 5 届,record 出席,delegates 来自 50+ 国家(欧/北美/南美/亚/非/澳)。今年主题聚焦:<strong>video and live experiences / monetisation / IP / creator-led communities</strong>。",
+    "why_matters": "不是产品发布,但是行业风向标:全行业把 \"播客 = 视频 + IP + creator 社区\" 作为今年三大讨论主题,跟 S-36(Apple HLS + Spotify 采纳)是同一条结构性信号。对微博音频不构成方向输入,但记录在案 — 当 \"音频 → 视频\" 路径(⑧)未来真正启动时,The Podcast Show 这类海外行业会议的议题图谱是判断 \"对手在做什么\" 的低成本来源。",
+    "issue_no_origin": 6,
+    "category": "行业数据 · 风向",
+    "tags": [
+      "industry",
+      "uk",
+      "podcast_show",
+      "video_podcast"
+    ],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-38",
+    "title": "Spotify Personal Podcasts:CLI + AI agent(Codex / Claude Code / OpenClaw)生成个人播客并保存到库(2026-05-07,窗口外补做)",
+    "score_value": null,
+    "score_max": null,
+    "score_label": "high",
+    "date": "2026-05-07",
+    "source_label": "来源:TechCrunch · 2026-05-07 · 第 5 期 F.3 主轴一指定补做",
+    "source_urls": [
+      {
+        "name": "TechCrunch · Spotify wants to become the home for AI-generated personal audio",
+        "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/"
+      },
+      {
+        "name": "9to5Google · Spotify Personal Podcasts AI agents",
+        "url": "https://9to5google.com/2026/05/07/spotify-personal-podcasts-ai-agents/"
+      },
+      {
+        "name": "MacRumors · Spotify Now Plays Personal Podcasts Generated by Your AI Agent",
+        "url": "https://www.macrumors.com/2026/05/08/spotify-personal-podcasts-ai-agent/"
+      }
+    ],
+    "summary": "<strong>窗口外补做信号(原 5 期作废)</strong>。Spotify 5 月 7 日上线 Personal Podcasts beta:用户可以让<strong>桌面端的 AI 助手给自己造一档专属播客,自动存到 Spotify 库里</strong>。<br><br>典型使用场景(Spotify 官方给的例子):<ul><li>每天早上一份「<strong>简报播客</strong>」 — 整合日程 / 天气 / 上下班路上的推荐播客</li><li>从笔记里生成一份「<strong>个人课件播客</strong>」 — 复习用,可以越听越深</li><li>「<strong>周末行程播客</strong>」 — 把旅行计划/餐厅推荐做成可以听的形态</li></ul>这些 Personal Podcasts 只在自己的 Spotify 库里,<strong>不分享给其他用户</strong>。已对所有合格 Free 和 Premium 用户全球开放,beta 期有用量限制。<br><br>(底层实现是 Spotify 提供的 CLI 工具,需要跟 AI agent 配合使用 — 这一层用户感知不到,本质是「**AI agent 帮你造内容,Spotify 当播放器**」的产品形态。)<br><br>同周 5/7 还发布 AI DJ 4 种新语言扩展(法 / 德 / 意 / 巴西葡)和新市场,DJ 累计服务 9400 万 Premium 用户。",
+    "why_matters": "<strong>这是「AI agent 进 C 端用户日常」的产品形态突破点 — 不是给开发者用的工具,是给普通用户用的内容生成器。</strong><br><br>对微博音频的两个产品对照:<br><br><strong>(1) 与 ⑩「社交图谱日播」(保留池,21/22)是直接对标</strong>。Spotify 的「daily 简报播客」用例就是 ⑩ 的核心产品形态。但 Spotify 走的是<strong>用户主动 prompt → 私人库</strong>(隐性主动消费),微博 ⑩ 走的是<strong>社交图谱 → 早间被动推送</strong>(完全被动消费),形态差异但场景重合。本期 ⑩ 唤醒条件 #4 严格判断<strong>不触发</strong>(Spotify 本次只是发布,未披露 DAU / 留存数据),维持保留。<br><br><strong>(2) 与微博 H5 项目本身架构同构</strong>。Spotify 选的产品形态是<strong>「桌面端 AI 助手生成 → 一键导入平台库」</strong> — 跟微博灵感日报 H5 项目「桌面 Claude 客户端跑生成 → H5 一键入库」架构惊人同构。两者都把 LLM 跑在桌面端而不是平台内,平台只负责「导入 + 展示」;都允许「用户主导 / 个性化」,不做「全员 chatbot」。<strong>是对本 H5 项目产品架构选择的间接外部背书</strong>。",
+    "issue_no_origin": 6,
+    "category": "国外对标 · 产品动态",
+    "tags": [
+      "spotify",
+      "ai_agent",
+      "cli",
+      "personal_podcasts",
+      "architecture_validation"
+    ],
+    "related_direction_ids": [
+      "⑩"
+    ]
+  },
+  {
+    "id": "S-39",
+    "title": "Spotify Personal Podcasts App 内直接生成：prompt → 每日/周个性化私人音频节目（Investor Day 2026, 2026-05-21）",
+    "score_value": null,
+    "score_max": null,
+    "score_label": "high",
+    "date": "2026-05-21",
+    "source_label": "来源:Spotify newsroom + TechCrunch · 2026-05-21",
+    "source_urls": [
+      {
+        "name": "Spotify newsroom · Investor Day 2026 · Podcast Features",
+        "url": "https://newsroom.spotify.com/2026-05-21/investor-day-podcast-features-updates/"
+      },
+      {
+        "name": "TechCrunch · Spotify adds AI-powered Q&A and briefing generation features to podcasts",
+        "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/"
+      }
+    ],
+    "summary": "Spotify Investor Day 2026（5/21）发布 Personal Podcasts App 内直接生成功能。用户在 Spotify App 内写 prompt，即可生成个性化私人音频节目：<ul><li>支持<strong>定时每日 / 每周自动生成</strong></li><li>可上传 PDF / 链接 / 文本作为参考内容</li><li>可选择 AI 声音</li><li>节目保存在个人私人库，仅自己可见</li><li>结合用户的 Spotify 品味档案（taste profile）+ 用户 prompt 生成</li></ul>同日还发布 <strong>Studio by Spotify Labs</strong>——独立桌面应用，可连接邮件 / 日历 / 个人服务，生成围绕用户生活的个性化音频。美区 Premium 用户 2026-06 起逐步推出，初始有月度用量上限。",
+    "why_matters": "⑩（社交图谱日播，保留池，21/22）的<strong>直接竞品落地形态</strong>。Spotify 选择「<strong>用户主动 prompt + 收听品味数据</strong>（个人品味驱动）」路径；微博 ⑩ 走「<strong>社交图谱 + 完全被动推送</strong>（社交数据驱动）」路径。微博的差异化筹码：Spotify 没有社交图谱，微博独有「follow 关系 + 话题偏好 + 热搜实时性」。Spotify 先行验证了产品形态的市场接受度，<strong>降低了微博 ⑩ 的用户教育成本，也缩短了先发窗口</strong>。",
+    "issue_no_origin": 7,
+    "category": "国外对标 · 产品动态",
+    "tags": [
+      "spotify",
+      "personal_podcasts",
+      "personalization",
+      "daily_brief",
+      "investor_day_2026"
+    ],
+    "related_direction_ids": [
+      "⑩",
+      "⑤"
+    ]
+  },
+  {
+    "id": "S-40",
+    "title": "Spotify AI Q&A for Podcasts：收听时实时追问节目内容（Investor Day 2026, 2026-05-21 上线）",
+    "score_value": null,
+    "score_max": null,
+    "score_label": "high",
+    "date": "2026-05-21",
+    "source_label": "来源:Spotify newsroom · 2026-05-21",
+    "source_urls": [
+      {
+        "name": "Spotify newsroom · Investor Day 2026 · Podcast Features",
+        "url": "https://newsroom.spotify.com/2026-05-21/investor-day-podcast-features-updates/"
+      }
+    ],
+    "summary": "Spotify Investor Day 2026（5/21）同日上线 AI Q&A for Podcasts：Premium 用户在<strong>收听播客时可实时向 Spotify 提问</strong>，获得基于节目内容的 AI 回答，支持「澄清概念 / 探索话题 / 获取相关播客推荐」。首发市场：美国、瑞典、爱尔兰 Premium 移动端。",
+    "why_matters": "⑪（Interactive AI 追问，保留池，18/22）的<strong>直接外部形态验证</strong>——与 ⑪ 核心交互几乎完全同构：播客内容为知识库 + 实时追问 + AI 回答 + 相关推荐。Spotify 先于微博完成落地，⑪ 的内部 blocker（⑦-a AI 节点尚未上线）不变，但<strong>决策窗口紧迫度在上升</strong>。",
+    "issue_no_origin": 7,
+    "category": "国外对标 · 产品动态",
+    "tags": [
+      "spotify",
+      "ai_qa",
+      "interactive",
+      "podcast",
+      "investor_day_2026"
+    ],
+    "related_direction_ids": [
+      "⑪"
+    ]
+  },
+  {
+    "id": "S-41",
+    "title": "ElevenLabs 宣布进军有声书平台，对标 Spotify Audiobooks 和 Audible（2026-05-21）",
+    "score_value": null,
+    "score_max": null,
+    "score_label": "low",
+    "date": "2026-05-21",
+    "source_label": "来源:Bloomberg · 2026-05-21",
+    "source_urls": [
+      {
+        "name": "Bloomberg · ElevenLabs, an AI-Voice Startup, Is Angling to Disrupt the Audiobooks Industry",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-21/elevenlabs-an-ai-voice-startup-is-angling-to-disrupt-the-audiobooks-industry"
+      }
+    ],
+    "summary": "ElevenLabs 宣布进军有声书平台市场，直接对标 Spotify Audiobooks 和 Audible，从 AI 语音工具供应商向 C 端内容平台转型，利用自身 TTS 技术优势压低有声书制作成本，切入平台分发层。",
+    "why_matters": "「AI 语音技术商自建内容平台」路径的首个大规模验证案例。对微博音频直接影响有限（ElevenLabs 聚焦长有声书），但长期需关注其是否向播客场景延伸。代表 AI 工具层与内容平台层边界正在模糊这一行业趋势。",
+    "issue_no_origin": 7,
+    "category": "行业动态 · 平台层",
+    "tags": [
+      "elevenlabs",
+      "audiobook",
+      "platform",
+      "tts"
+    ],
+    "related_direction_ids": []
+  },
+  {
+    "id": "S-42",
+    "title": "YouTube Premium 播客三件套：Auto Speed + Ask Music for Podcasts + On-the-go Mode",
+    "score_value": null,
+    "score_max": 26,
+    "score_label": "high",
+    "date": "2026-05-28",
+    "source_label": "TechCrunch · 2026-05-28",
+    "source_urls": [
+      {
+        "name": "TechCrunch · YouTube adds new podcast features including an AI recommendation tool and auto speed",
+        "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/"
+      }
+    ],
+    "summary": "YouTube Premium 在 5/28 同时推出播客三件套：Auto Speed（系统自动调节播放速度，被动优化体验）、Ask Music for Podcasts（播放中直接向 AI 提问节目内容）、On-the-go Mode（移动场景优化）。MAU 破 10 亿，4 月 Premium 用户 8 亿小时收听。",
+    "why_matters": "Ask Music for Podcasts 是 ⑤「音频问答发现」的第二个外部参照系（继 Spotify Prompted Playlists 之后）。Auto Speed 验证「被动 > 主动」的产品哲学。10 亿 MAU 说明视频播客已非实验品，是行业共识。与 Spotify Ask Spotify 一道构成双平台对 ⑪ 的前哨信号。",
+    "issue_no_origin": 7,
+    "category": "国外对标 · YouTube",
+    "tags": [
+      "youtube",
+      "podcast",
+      "ai-qa",
+      "auto-speed",
+      "premium"
+    ],
+    "related_direction_ids": [
+      "⑤",
+      "⑧"
+    ]
+  },
+  {
+    "id": "S-43",
+    "title": "Amazon Alexa Podcasts · AI 按需生成完整播客剧集",
+    "score_value": null,
+    "score_max": 26,
+    "score_label": "high",
+    "date": "2026-05-18",
+    "source_label": "TechCrunch + About Amazon · 2026-05-18",
+    "source_urls": [
+      {
+        "name": "TechCrunch · Amazon new Alexa-powered feature can generate podcast episodes",
+        "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"
+      },
+      {
+        "name": "About Amazon · Alexa Podcasts AI-generated audio episodes",
+        "url": "https://www.aboutamazon.com/news/devices/alexa-podcasts-ai-generated-audio-episodes"
+      }
+    ],
+    "summary": "Amazon 发布 Alexa Podcasts，用户通过 prompt 向 Alexa 请求，AI 实时生成完整播客剧集，整合 200+ 新闻合作伙伴内容，Prime 会员免费。走「用户主动 prompt → 按需生成」路径。",
+    "why_matters": "与 ⑩「社交图谱日播」形态最接近但路径不同：Amazon 走主动 prompt，微博 ⑩ 走社交图谱驱动→被动推送。三巨头（Spotify + YouTube + Amazon）同期验证「AI 个性化日播」形态可行性，大幅降低 ⑩ 的用户教育成本。200+ 新闻合作伙伴的版权模式值得关注。",
+    "issue_no_origin": 7,
+    "category": "国外对标 · Amazon",
+    "tags": [
+      "amazon",
+      "alexa",
+      "podcast",
+      "ai-generate",
+      "on-demand"
+    ],
+    "related_direction_ids": [
+      "⑩",
+      "②"
+    ]
+  },
+  {
+    "id": "CN-01",
+    "title": "微博 Q1 财报：热点内容+社群互动+AI 搜索三大抓手 + AI 兴趣用户 +328%",
+    "score_value": null,
+    "score_max": 26,
+    "score_label": "high",
+    "date": "2026-05-28",
+    "source_label": "PRNewswire + 新浪科技 · 2026-05-28",
+    "source_urls": [
+      {
+        "name": "微博官方财报 · PRNewswire",
+        "url": "https://www.prnewswire.com/news-releases/weibo-announces-first-quarter-2026-unaudited-financial-results-302784136.html"
+      },
+      {
+        "name": "新浪科技 · AI 内容生态报告",
+        "url": "https://finance.sina.com.cn/tech/2026-05-28/doc-inhzmpqp1088293.shtml"
+      }
+    ],
+    "summary": "微博 Q1 2026 财报：明确「热点内容 + 社群互动 + AI 搜索」为内容生态三大抓手。AI 兴趣用户 YoY +328%，AI 垂类内容消费快速增长。热点搜索落地页、评论区、超话讨论页是核心流量承接场景。",
+    "why_matters": "最强内部对齐信号。音频机会不应另起炉灶，而应嵌入热点搜索落地页、评论区、超话讨论页，先回答「这件事大家在说什么」，再给 60-120 秒可听版。对 ⑤「音频问答发现」是直接内部入口验证——AI 搜索强化 = 内部入口已就位。",
+    "issue_no_origin": 7,
+    "category": "国内 · 微博",
+    "tags": [
+      "weibo",
+      "q1-2026",
+      "ai-search",
+      "earnings",
+      "internal"
+    ],
+    "related_direction_ids": [
+      "⑤"
+    ]
+  },
+  {
+    "id": "CN-05",
+    "title": "快手可灵单季 6.5 亿 + 抖音 AIGC 80 万条处置 + 豆包 Seed-TTS 2.0",
+    "score_value": null,
+    "score_max": 26,
+    "score_label": "high",
+    "date": "2026-05-27",
+    "source_label": "快手 IR + 科技日报 + 知乎 · 2026-05-27",
+    "source_urls": [
+      {
+        "name": "快手 IR · Q1 2026 财报",
+        "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-first-quarter-2026-unaudited"
+      },
+      {
+        "name": "科技日报 · 抖音 AIGC 合规处置",
+        "url": "https://www.stdaily.com/web/gdxw/2026-05/27/content_523471.html"
+      },
+      {
+        "name": "知乎 · 豆包语音模型",
+        "url": "https://zhuanlan.zhihu.com/p/1916624014283108683"
+      }
+    ],
+    "summary": "快手可灵 AI 单季收入 6.5 亿人民币，证明 AI 创作工具已可商业化；抖音处置 AIGC 违规内容 80 万条，日均语音处理 150 亿次；豆包 Seed-TTS 2.0 即将向播客场景开放。",
+    "why_matters": "可灵商业化数据对 ⑧「音频高光→视频」内部立项有说服力，证明创作者工作台闭环可行。抖音 80 万条处置 = 治理约束已硬化，所有 AI 音频方向 MVP 必须默认带标识/授权/撤回/内容标签。豆包 Seed-TTS 若落地播客客户端 → 直接触发 ⑪ 唤醒条件 #2（Seeduplex 在播客客户端落地）。",
+    "issue_no_origin": 7,
+    "category": "国内 · 快手/抖音/字节",
+    "tags": [
+      "kuaishou",
+      "kling",
+      "douyin",
+      "aigc",
+      "doubao",
+      "seed-tts",
+      "compliance"
+    ],
+    "related_direction_ids": [
+      "⑧",
+      "⑪"
+    ]
   }
 ]

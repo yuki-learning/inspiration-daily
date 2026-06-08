@@ -128,5 +128,57 @@
     ],
     "takeaway_short": "本期外部信号扫描作废（A / E 区留空），仅承担三项 PM 决策动作：(1) ⑧ 从『跟进+建议立项』降级到『持续观察』，配 4 条唤醒条件入唤醒池；(2) 唤醒池 4 条（⑦-b / ⑨ / ⑩ / ⑪）逐条扫描，全部判为未触发；(3) F 区给 v2 13 维 26 分制定下『第 6 期正式启用…",
     "file": "reports/2026-05-18.json"
+  },
+  {
+    "issue_no": 6,
+    "date": "2026-05-21",
+    "title": "微博音频灵感 Agent · v2 标尺第 6 期 · 信号回归 + Google I/O 全景 + 窗口外补做",
+    "version_ruler": "v2_candidate",
+    "stats": [
+      {
+        "num": 5,
+        "label": "本期信号"
+      },
+      {
+        "num": 0,
+        "label": "真·新方向"
+      },
+      {
+        "num": 2,
+        "label": "跟进方向新输入"
+      },
+      {
+        "num": 0,
+        "label": "本期入唤醒池"
+      }
+    ],
+    "takeaway_short": "Google I/O 2026 (5/19) 没有给\"播客生态\"直接的新发布 — ⑪ 唤醒条件 #2 \"NotebookLM Interactive Audio Mode 中文版上线\" 仍未触发(且经核源后,该 Mode 本身是 2024 旧功能)。但 I/O 主轴(Gemini Spark + Daily Brief + Android Halo)是 <stro…",
+    "file": "reports/2026-05-21.json"
+  },
+  {
+    "issue_no": 7,
+    "date": "2026-06-05",
+    "title": "微博音频灵感 Agent · v2 标尺第 7 期",
+    "version_ruler": "v2",
+    "stats": [
+      {
+        "num": 10,
+        "label": "本期信号"
+      },
+      {
+        "num": 4,
+        "label": "跟进新输入"
+      },
+      {
+        "num": "0/4",
+        "label": "唤醒触发"
+      },
+      {
+        "num": 0,
+        "label": "真·新方向"
+      }
+    ],
+    "takeaway_short": "三巨头齐推 AI 播客（Spotify Ask Spotify + YouTube Auto Speed + Amazon Alexa Podcasts）+ 国内入口重组加速（微博 Q1「热点+社群+AI 搜索」、快手可灵 6.5 亿、抖音 AIGC 80 万条处置）+ 唤醒池首次全量扫描 0 触发但 ⑪ 收到重大前哨信号。",
+    "file": "reports/2026-06-05.json"
   }
 ]
